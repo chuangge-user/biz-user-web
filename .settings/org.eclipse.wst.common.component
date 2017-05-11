@@ -7,6 +7,9 @@
         <dependent-module archiveName="inf-util-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/inf-util/inf-util">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="biz-user-api-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biz-user-api/biz-user-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="chuangge-dubbo-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-dubbo/chuangge-dubbo">
             <dependency-type>uses</dependency-type>
         </dependent-module>
