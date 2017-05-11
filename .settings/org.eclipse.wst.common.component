@@ -19,6 +19,9 @@
         <dependent-module archiveName="chuangge-common-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-common/chuangge-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="chuangge-validator-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-validator/chuangge-validator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="chuangge-jdbc-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-jdbc/chuangge-jdbc">
             <dependency-type>uses</dependency-type>
         </dependent-module>
