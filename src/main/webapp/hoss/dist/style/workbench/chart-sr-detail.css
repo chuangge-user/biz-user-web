@@ -1,0 +1,48 @@
+
+/*    Element
+   ========================================== */
+.input-w5 {
+    width: 5em;
+}
+
+.input-w10 {
+    width: 10em;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > td{
+    text-align: center;
+}
+
+.table > thead > tr > th {
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+}
+
+.table > tfoot > tr td {
+    border-top-width: 0;
+    font-weight: bold;
+}
+
+.table td a {
+    cursor: pointer
+}
+
+/* datepicker
+   ========================================== */
+.search-line .datepicker {
+    padding: 0
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+

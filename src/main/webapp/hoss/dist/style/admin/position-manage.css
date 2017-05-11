@@ -1,0 +1,7 @@
+.subbox > .article > table td.search-line{
+    text-align: center
+}
+.subbox > .article > table td.search-line input{
+    width:auto;
+    margin-right: 1.2em;
+}

@@ -1,0 +1,108 @@
+#searchResultList caption {
+    padding: 10px;
+}
+
+
+.modal-dialog {
+    width: 900px;
+}
+
+.error-message {
+    margin-top: -20px;
+}
+
+
+.enable {
+
+}
+
+.disable {
+
+}
+
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    vertical-align: top;
+}
+
+
+.advertiser-table label {
+    display: inline-block;
+    width: 8em;
+    text-align: right;
+    padding-right: .5em;
+}
+
+.advertiser-table .input-text {
+    width: 17em;
+}
+
+.pwd-tips {
+    text-align: right;
+    color: #666;
+}
+
+.a-right {
+    text-align: right;
+}
+
+.project-list {
+    padding-bottom: 20px;
+}
+
+.table-user,
+.project-list .table-user {
+    margin-right: 15px;
+    padding: 5px;
+}
+
+
+.cooperation-project {
+    background: #fff;
+}
+
+.add-project-form {
+    padding: 10px 0;
+}
+
+
+#completeAddModal .modal-dialog {
+    width: 600px;
+}
+#completeAddModal .modal-body {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.btn-recharge {
+    margin-right: 2em;
+}
+.pwd-tips {
+    color: #f00;
+}
+.table-user {
+    cursor: pointer;
+    line-height: 1.8;
+}
+
+.i-del {
+    background-image: url(../../image/icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.i-del {
+    background-position: 3px -197px;
+    height: 14px;
+    margin-left: 5px;
+    margin-top: -3px;
+    width: 14px;
+}
+.table-user:hover .i-del {
+    background-position: 0 -222px;
+}

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>ECharts</title>
+<!-- 来自百度CDN -->
+<script src="http://s1.bdstatic.com/r/www/cache/ecom/esl/1-6-10/esl.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="height:400px;width:1200px;"></div>
+<script type="text/javascript">
+        // 路径配置
+        require.config({
+            paths:{ 
+                'echarts' : 'http://echarts.baidu.com/build/echarts',
+				'echarts/chart/bar' : 'http://echarts.baidu.com/build/echarts/chart/bar'
+            }
+        });
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/bar'
+            ],
+            function (ec, line) {
+				option = {
+					tooltip : {
+					   trigger: 'axis'
+					},
+					legend: {
+						data:['预约', '来访', '认筹', '转筹', '退款']
+					},
+					calculable : true,
+					xAxis : [
+						{
+							type : 'category',
+							data : ['好屋经纪人', '好屋分享', '好屋合伙人', '传统中介', '自然来访']
+						}
+					],
+					yAxis : [
+						{
+							type : 'value'
+						}
+					],
+					series : [
+						{
+							name:'预约',
+							type:'bar',
+							data:[5, 25, 50, 250, 400]
+						},
+						{
+							name:'来访',
+							type:'bar',
+							data:[5, 25, 50, 260, 500]
+						},
+						{
+							name:'认筹',
+							type:'bar',
+							data:[5, 25, 50, 270, 600]
+						},
+						{
+							name:'转筹',
+							type:'bar',
+							data:[5, 25, 50, 280, 700]
+						},
+						{
+							name:'退款',
+							type:'bar',
+							data:[5, 20, 30, 50, 100]
+						}
+					]
+				};
+				
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('main')).setOption(option); 
+            }
+        );
+    </script>
+</body>

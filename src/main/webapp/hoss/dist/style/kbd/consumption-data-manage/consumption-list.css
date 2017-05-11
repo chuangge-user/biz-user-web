@@ -1,0 +1,14 @@
+
+.modal-body table td{
+    padding:8px 5px;
+}
+
+.modal-body .input-group .form-control{
+    vertical-align: middle;
+}
+
+
+.modal-body .input-daterange.input-group .input-group-addon{
+    margin-left: -1px;
+    margin-right: -1px;
+}

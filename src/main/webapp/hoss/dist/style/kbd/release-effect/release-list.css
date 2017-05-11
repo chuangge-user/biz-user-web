@@ -1,0 +1,42 @@
+.table td > label {
+    display: block;
+}
+
+#searchResultList caption {
+    padding: 10px;
+}
+
+.no-enabled {
+    display: block;
+    color: #f60;
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-daterange.input-group .input-group-addon{
+    padding: 6px 10px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.modal-body > .search-form {
+    padding-bottom: 15px;
+}

@@ -1,0 +1,71 @@
+
+h3.company-name {
+    font-size: 16px;
+}
+
+h3.company-name i {
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form-control.e4{
+    max-width: 9em;
+}
+
+.list-table caption{
+    text-align: left;
+}
+
+.list-table caption .search-line{
+    background-color: #fff;
+    padding: 5px 0 5px 10px;
+}
+
+.list-table caption h4 {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.table-condensed thead tr td{
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.list-table.table > thead > tr > td {
+    background-color: #f1f1f1;
+
+}
+.list-table.table-bordered > thead > tr > td {
+    border-bottom-width: 1px;
+}
+
+.list-table td s {
+    text-decoration: none;
+}
+
+.table tbody td i{
+    font-style: normal;
+    color:#999;
+}
+
+input.form-control-sm{
+    min-width: 3em;
+}
+
+.radio, .checkbox {
+    min-height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    font-weight: normal;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+
+}

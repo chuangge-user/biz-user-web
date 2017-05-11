@@ -1,0 +1,21 @@
+/* 总累计量
+   ========================================== */
+.chart-grand-total-wrap {
+    padding: 0 25px 10px;
+}
+.chart-grand-total,
+.chart-grand-total-info {
+    height: 200px;
+}
+.chart-grand-total {
+    width: 65%;
+    background-color: #ccc;
+}
+.chart-grand-total-info {
+    width: 34%;
+    padding: 1em 2em;
+    background-color: #efefef;
+}
+.chart-grand-total-info > p {
+    margin-bottom: 15px;
+}

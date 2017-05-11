@@ -1,0 +1,39 @@
+
+
+.brokerage-apply-info-table h3{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:15px;
+    margin-top: 15px;
+     text-align: left;
+}/*表头*/
+.table.brokerage-apply-info-table > thead > tr > td{
+    border-bottom-width: 1px;
+}
+.table.brokerage-apply-info-table > thead > tr > th{
+    background-color: #f0f0f0;
+}
+.table.brokerage-apply-info-table > thead > tr > th,
+.brokerage-apply-info-table tbody>tr>td{
+    text-align: center;
+}
+
+
+div.tab-pane table.table>tbody>tr>td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.brokerage-apply-info-table tbody td a{
+    cursor: pointer;
+}
+
+/*弹出模态框
+=================================*/
+.modal-lg {
+    width: 1000px;
+}
+.modal-body .table>thead>tr>th{
+    padding:5px 5px;
+    white-space: nowrap;
+}

@@ -1,0 +1,15 @@
+
+
+
+.modal-body table th{
+    white-space: nowrap;
+}
+
+.table > tbody > tr > th,
+.table > tbody > tr > td {
+    border-top:none;
+}
+.btn-mm {
+    padding:5px 20px;
+    margin:0px 10px;
+}

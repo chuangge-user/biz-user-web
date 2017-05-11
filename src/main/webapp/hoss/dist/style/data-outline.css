@@ -1,0 +1,111 @@
+.data-outline-wrap {
+    margin: 15px 0;
+}
+.data-outline-wrap > .box {
+    overflow: inherit;
+}
+.data-outline-wrap .table-wrap {
+    width: 100%;
+}
+.data-outline {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.btn-group-district {
+    border-top: 2px solid #f60 !important;
+}
+.btn-group-time {
+    border-top: 2px solid #6cf !important;
+}
+
+/* 线下数据、线上数据
+   ========================================== */
+/*.btn-group-o2o {*/
+    /*width: 19%;*/
+    /*height: 100%;*/
+    /*border-top: 2px solid #6cc !important;*/
+/*}*/
+/*.btn-group-o2o > .active {*/
+    /*color: #fff;*/
+    /*background-color: #6cc;*/
+/*}*/
+/*.offline-data,*/
+/*.online-data {*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*height: 82px;*/
+    /*font-size: 14px;*/
+    /*font-family: \5fae\8f6f\96c5\9ed1, "Microsoft YaHei", Helvetica;*/
+    /*color: #666;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+/*.offline-data > strong,*/
+/*.online-data > strong {*/
+    /*display: block;*/
+/*}*/
+/*.offline-data > .i-offline,*/
+/*.online-data > .i-online {*/
+    /*display: inline-block;*/
+    /*margin-top: 15px;*/
+    /*width: 23px;*/
+    /*height: 23px;*/
+    /*background-image: url(../image/o2o-data-icon.png);*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+/*.offline-data > .i-offline {*/
+    /*background-position: left bottom;*/
+/*}*/
+/*.online-data > .i-online {*/
+    /*background-position: right bottom;*/
+/*}*/
+/*.offline-data.active > .i-offline {*/
+    /*background-position: left top;*/
+/*}*/
+/*.online-data.active > .i-online {*/
+    /*background-position: right top;*/
+/*}*/
+/*.btn-group-district > .btn-group,*/
+/*.btn-group-time > .btn-group {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.btn-group-district > .btn-group > .dropdown-toggle,
+.btn-group-time > .btn-group > .dropdown-toggle {
+    border: 0 !important;
+    padding: 20px 15px;
+}
+.data-outline > tbody > tr > th[rowspan],
+.data-outline > tbody > tr > td[rowspan] {
+    text-align: center;
+    vertical-align: middle;
+}
+.district-list {
+    padding: 1em;
+    width: 400px;
+}
+.district-list > dt {
+    font-weight: bold;
+}
+.district-list > dd {
+    padding-bottom: 1.3em;
+    font-weight: normal;
+}
+.district-list > dt > a,
+.district-list > dd > a {
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1px 5px 1px 0;
+    padding: 2px 3px;
+}
+.district-list > dd > a:hover {
+    background-color: #f9f9f9;
+}
+.district-list > dt > a.active,
+.district-list > dd > a.active {
+    color: #fff;
+    background-color: #428bca;
+}
+.dropdown-menu {
+    min-width: 100px;
+}

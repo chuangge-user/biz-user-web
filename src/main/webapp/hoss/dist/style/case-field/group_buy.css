@@ -1,0 +1,15 @@
+table tr td:first-child{
+    /*text-align:right;*/
+}
+
+#showPrint{
+    font-size:12px;
+    font-family: "微软雅黑";
+}
+
+#showPrintList p{
+    font-size:1em;
+}
+#showPrint * {
+    font-size:1em;
+}

@@ -1,0 +1,154 @@
+.text_right {
+    text-align: right;
+}
+.remind {
+    color:red;
+}
+.the_select_area {
+    margin-bottom: 10px;
+}
+
+.the_select_area s,.td_select_area s, .upload_files s{
+    text-decoration: none;
+    padding-right: 16px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+[class^="icon-"],[class*=" icon-"]{display:inline-block;
+    width:14px;height:14px;margin-top:1px;*margin-right:.3em;line-height:14px;vertical-align:text-top;
+    background-image:url("../../../image/glyphicons-halflings.png");
+    background-position:14px 14px;background-repeat:no-repeat;
+}
+
+.icon-remove {
+    background-position: -312px 0;
+}
+.btn-add-city {
+    margin-top: 5px;
+}
+
+.select_project {
+    margin-top: 5px;
+    display: none;
+}
+.btn-mm {
+    padding:5px 20px;
+    margin:0px 10px;
+}
+
+
+.approval> tbody > tr >th{
+    border-bottom:1px solid #eee;
+    font-size: 14px;
+    border-top-width: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.approval> tbody > tr > td{
+    border-top-width: 0;
+    padding-bottom: 2px;
+    padding-top:16px;
+}
+.approval td:nth-child(odd){
+    text-align: right;
+}
+.approval tr strong{
+    color: #f60;
+}
+table td em{
+    color: #f00;
+    font-family: caption;
+    font-size: 13px;
+    font-style: normal;
+    margin-right: 3px;
+}
+label{
+    margin-bottom:0;
+    font-weight: normal;
+}
+.creattime{
+    padding: 10px 50px;
+    position: relative;
+}
+.dropdown-menu{
+    display: block;
+}
+
+
+.dropdown-menu{
+    position: inherit;
+    margin: 10px 50px 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    float: none;
+    z-index: 998;
+}
+
+.dropdown-menu::before {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 29px;
+    position: absolute;
+    top: -7px;
+}
+
+.dropdown-menu::after {
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    left:30px;
+    position: absolute;
+    top: -6px;
+}
+
+.dropdown-menu table tr td:nth-child(1){
+    white-space: nowrap;
+    text-align: right;
+}
+
+.dropdown-menu table td{
+    font-size: 12px;
+    padding: 5px 8px;
+    vertical-align: top;
+}
+.dropdown-menu table tfoot td{
+    text-align: right;
+}
+
+.signOrder table tr th{
+    text-align: right;
+    width: 120px;
+    font-weight: normal;
+}
+.signOrder table em{
+    color: #f00;
+    font-size: 13px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.signOrder .table>tbody>tr>th,
+.signOrder .table>tbody>tr>td
+{
+    border-width: 0;
+}
+.signOrder .table tfoot td{
+    text-align: center;
+    padding-top: 30px;
+}
+.signOrder
+.modal-title{
+    font-size: inherit;
+}
+
+table .timeinput{
+    width: auto;
+    display: inline-block;
+}

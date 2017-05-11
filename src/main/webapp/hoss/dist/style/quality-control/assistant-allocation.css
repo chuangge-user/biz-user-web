@@ -1,0 +1,67 @@
+.change .modal-body caption{
+    padding-bottom: 5px;
+}
+.change .modal-body caption .row div{
+    white-space: nowrap; line-height: 2.4;
+}
+.change .modal-body table,
+.change .modal-body .table> thead>tr>th{
+    text-align: center
+}
+.btns{ padding-bottom: 10px;}
+
+.change .modal-header{
+    border-bottom-width: 0;
+}
+
+.change .modal-header h4{
+    visibility: hidden;
+    display: none;
+}
+.table-table thead th{
+    background-color: #f0f0f0;
+}
+.table-table p{
+    margin-bottom: 0;
+}
+
+
+
+/* ===========================================================================
+   Search form
+   ======================================================================== */
+#changeList {
+    margin-top: 15px;
+}
+
+#changeList .btn-block {
+    margin-bottom: 0;
+}
+
+.data-message {
+    font-weight: bold;
+    text-align: center;
+    color: #ff6a00;
+}
+
+.btn-update-status[status='0'],
+[data-status='0'] {
+    color: green;
+}
+.btn-update-status[status='1'],
+[data-status='1'] {
+    color: red;
+}
+.i-del {
+    background-position: 3px -197px;
+    height: 14px;
+    margin-left: 5px;
+    margin-top: -3px;
+    width: 14px;
+}
+.i-del {
+    background-image: url("../../image/icons.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}

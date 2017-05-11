@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>ECharts</title>
+<!-- 来自百度CDN -->
+<script src="http://s1.bdstatic.com/r/www/cache/ecom/esl/1-6-10/esl.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="height:220px;width:350px;border: 1px solid #ccc;"></div>
+<script type="text/javascript">
+        // 路径配置
+        require.config({
+            paths:{ 
+                'echarts' : 'http://echarts.baidu.com/build/echarts',
+				'echarts/chart/pie' : 'http://echarts.baidu.com/build/echarts/chart/pie'
+            }
+        });
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/pie'
+            ],
+            function (ec, pie) {
+				option = {
+					tooltip : {
+					   trigger: 'axis'
+					},
+					legend: {
+						orient : 'vertical',
+						x : 'right',
+						data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+					},
+					series : [
+						{
+							name:'访问来源',
+							type:'pie',
+							radius : '80%',
+            				center: ['40%', '50%'],
+							data:[
+								{value:335, name:'直接访问'},
+								{value:310, name:'邮件营销'},
+								{value:234, name:'联盟广告'},
+								{value:135, name:'视频广告'},
+								{value:1548, name:'搜索引擎'}
+							],    
+						    itemStyle : {
+								normal : {
+									label : {
+										show : true,
+										position : 'inner',
+										formatter : function (a,b,c,d) {return c;}
+									},
+									labelLine : {
+										show : false
+									}
+								},
+								emphasis : {
+									label : {
+										show : true,
+										position : 'inner'
+									}
+								}
+						    }
+						}
+					]
+				};
+				
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('main')).setOption(option); 
+            }
+        );
+    </script>
+</body>

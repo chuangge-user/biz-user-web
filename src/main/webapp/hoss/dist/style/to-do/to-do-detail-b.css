@@ -1,0 +1,62 @@
+
+
+.todo-detail-b .search-line .margin{margin: 0 2.5em;}
+
+.todo-detail-b tr>th{
+    font-weight: normal;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.detail-table>thead>tr>td{
+    border-bottom-width: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table.detail-table> thead> tr> th{
+    background-color: #f0f0f0;
+    border-bottom-width: 0;
+    font-size: 15px;
+}
+
+.todo-detail-b> tbody tr> th:nth-child(odd){
+    /*(text-align: right;*/
+}
+
+.table.detail-table> thead> tr> th,
+.table.detail-table> tbody> tr> td{
+    text-align: center;
+    vertical-align: middle;
+    border-color: #ddd;
+}
+
+input.form-control-sm{
+    margin-left: 5px;
+    text-align: center;
+}
+
+.input-w4 {
+    min-width: 4em;
+    width: 4em;
+}
+
+
+.tab-pane{
+    margin-top: -1px;
+    padding: 0 15px;
+}
+
+.tab-pane .table td p{ margin-bottom: 1px;}
+
+.btn-group-sm {
+    padding-top: 25px;
+}
+
+.btn-group-sm .btn{
+    margin: 0 .6em;
+    font-size: 14px;
+    padding-left:1.5em;
+    padding-right: 1.5em;
+}
+

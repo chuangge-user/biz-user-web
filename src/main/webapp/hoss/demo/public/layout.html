@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>一栏布局</title>
+
+        <!--[if lt IE 9]><meta http-equiv="refresh" content="0;url=../upgrade-browser/index.html"><![endif]-->
+        <noscript><meta http-equiv="refresh" content="0;url=../no-script/index.html"></noscript>
+
+        <link rel="stylesheet" type="text/css" href="../../dist/style/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../../dist/style/common.css">
+    </head>
+
+<body>
+    <header class="wrap header">
+        <div class="logo pull-left"><img src="../../dist/image/logo.png" alt="好屋中国"></div>
+
+        <div class="account text-right">
+            <span id="accountDay" class="account-day">2014年5月29日</span>
+            <span id="accountWeek" class="account-week">星期四</span>
+            您好，<span id="accountRole" class="account-role">项目经理</span>
+            <span id="accountName" class="account-name">张三</span>
+            <a id="feedback" href="../account/feedback.html">问题反馈</a>
+            <a id="logout" href="../account/logout.html">退出</a>
+        </div>
+
+        <ul id="nav" class="nav nav-main">
+            <li class="active"><a href="">我的工作台</a></li>
+            <li><a href="">我的工作台<sup class="badge">&middot;&middot;&middot;</sup></a></li>
+            <li><a href="">我的工作台</a></li>
+            <li><a href="">我的工作台<sup class="badge">3</sup></a></li>
+            <li><a href="">我的工作台</a></li>
+            <li><a href="">我的工作台</a></li>
+            <li><a href="">我的工作台<sup class="badge">42</sup></a></li>
+            <li><a href="">我的工作台</a></li>
+        </ul>
+    </header>
+
+
+
+    <div id="container" class="wrap">
+
+        <div class="container-fluid content">
+            <ol id="breadcrumb" class="breadcrumb">
+                <li><a href="#">审批管理</a></li>
+                <li><a href="#">我的申请</a></li>
+                <li class="active">项目费用审批单</li>
+            </ol>
+
+
+
+            <div class="container-fluid box mt-15">
+                <div class="row">
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">.col-md-8</div>
+                    <div class="col-md-4">.col-md-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4">.col-md-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">.col-md-6</div>
+                    <div class="col-md-6">.col-md-6</div>
+                </div>
+            </div>
+
+            <div class="container box mt-15">
+                <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+                    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+                </div>
+
+                <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+                    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+                    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+                </div>
+
+                <!-- Columns are always 50% wide, on mobile and desktop -->
+                <div class="row">
+                    <div class="col-xs-6">.col-xs-6</div>
+                    <div class="col-xs-6">.col-xs-6</div>
+                </div>
+            </div>
+
+            <div class="container box mt-15">
+                <div class="row">
+                    <div class="col-xs-9">.col-xs-9</div>
+                    <div class="col-xs-4">.col-xs-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+                    <div class="col-xs-6">.col-xs-6<br>Subsequent columns continue along the new line.</div>
+                </div>
+            </div>
+
+            <div class="box mt-15">
+                <h1>h1. 好屋中国</h1>
+                <h2>h2. 好屋中国</h2>
+                <h3>h3. 好屋中国</h3>
+                <h4>h4. 好屋中国</h4>
+                <h5>h5. 好屋中国</h5>
+                <h6>h6. 好屋中国</h6>
+            </div>
+
+            <div class="box mt-15">
+                <p class="text-left">Left aligned text.</p>
+                <p class="text-center">Center aligned text.</p>
+                <p class="text-right">Right aligned text.</p>
+                <p class="text-justify">Justified text.</p>
+                <p class="text-nowrap">No wrap text.</p>
+            </div>
+
+
+
+
+            <footer class="footer text-center">Copyright &copy; 2012 - <script>document.write((new Date()).getFullYear());</script> <a href="//www.haowu.com/">haowu.com</a> All Rights Reserved. 上海好屋中国 版权所有</footer>
+        </div>
+    </div>
+
+
+
+
+    <script src="../../lib/esl/1.8.2/esl.js"></script>
+    <script src="../../lib/esl/config.js"></script>
+    <script>
+        // 你的代码
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.table td > label {
+    display: block;
+}
+
+.edit-creative .table textarea,
+.add-creative .table textarea {
+    height: 5em;
+    resize: none;
+}
+
+.form-control-inline {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.edit-creative .form-group,
+.add-creative .form-group,
+.edit-creative .form-group .table,
+.add-creative .form-group .table {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.help-inline {
+    display: inline-block;
+    color: #737373;
+}

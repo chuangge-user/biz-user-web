@@ -1,0 +1,106 @@
+
+.search-line{
+    margin-bottom: 15px;
+}
+
+.modal-body table>thead>tr>th{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.modal-mm textarea{
+    resize: none;
+}
+
+
+
+.table td > label {
+    display: block;
+}
+
+#adTypeLink .active a {
+    position: relative;
+}
+sup.warm-dot {
+    position: absolute;
+    top: 3px !important;
+    right: 3px !important;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f60;
+}
+
+
+.handle-form {
+    padding: 2em;
+}
+
+.search-form .form-control {
+    width: 12em;
+}
+
+.handle-form .search-line {
+    padding-bottom: 1em;
+}
+
+.handle-form .search-line .btn-success {
+    margin-right: 1em;
+}
+
+#searchResultList caption strong {
+    color: #f60;
+    padding: 0 .3em;
+}
+
+
+.tips {
+    padding-left: 1em;
+    color: #008000;
+}
+
+.the_select_area {
+    margin-bottom: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+
+.the_select_area s,.td_select_area s, .upload_files s{
+    text-decoration: none;
+    padding-right: 16px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+[class^="icon-"],[class*=" icon-"]{display:inline-block;
+    width:14px;height:14px;margin-top:1px;*margin-right:.3em;line-height:14px;vertical-align:text-top;
+    background-image:url("../../../image/glyphicons-halflings.png");
+    background-position:14px 14px;background-repeat:no-repeat;
+}
+
+.icon-remove {
+    background-position: -312px 0;
+}
+.btn-add-city {
+    margin-top: 5px;
+}
+
+.select_project {
+    margin-top: 5px;
+    display: none;
+}
+.btn-mm {
+    padding:5px 20px;
+    margin:0px 10px;
+}
+
+.the_select_area s {
+    word-break: break-all;
+    word-wrap: break-word;
+    display: inline-block;
+}

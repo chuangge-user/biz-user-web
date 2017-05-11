@@ -1,0 +1,73 @@
+.nav-region {
+
+}
+.nav-region > li {
+    float: left;
+    width: 50%;
+}
+.nav-region > li:first-of-type {
+    border-right: 1px solid #eee;
+}
+.nav-region > li > a {
+    display: block;
+    padding: 15px;
+}
+.i-nav-region,
+.i-nav-do-project {
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 84px;
+    background-image: url(../../image/nav-region-icon.png);
+    background-repeat: no-repeat;
+
+}
+.i-nav-region {
+    background-position: 0 0;
+}
+.i-nav-do-project {
+    background-position: -187px 0;
+}
+.do-project {
+    margin: 0;
+    padding: 10px 0;
+    color: #333;
+    background-color: #ddd;
+}
+
+
+.project-count-info {
+    padding: 6px 15px;
+    background-color: rgba(255, 255, 255, .15);
+}
+.project-count-info > span {
+    display: inline-block;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+.project-count-info > span > strong {
+    padding: 0 5px;
+    color: #f60;
+}
+
+
+
+.i-btn-back {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1.5em;
+    width: 21px;
+    height: 30px;
+    text-align: center;
+    font: 13px/25px normal arial;
+    color: #fff;
+    background-image: url(../../image/map-aside.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.i-btn-back {
+    margin-right: 2px;
+    width: 15px;
+    height: 15px;
+    background-position: -99px -4px;
+}

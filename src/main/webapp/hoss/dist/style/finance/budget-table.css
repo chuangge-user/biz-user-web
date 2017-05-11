@@ -1,0 +1,19 @@
+.table-list thead > tr > th,
+.table-list tbody > tr > th {
+    vertical-align: middle
+}
+
+.table-title > tbody > tr > td {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.outrange td {
+    color: #f00;
+}
+
+tr.td-red > td {
+    color: #ff0000;
+}
+
+

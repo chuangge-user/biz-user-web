@@ -1,0 +1,58 @@
+
+.search-line .form-control{
+    max-width: 30em;
+}
+
+
+.radio label, .checkbox label {
+    font-weight: 400;
+    min-height: 20px;
+    margin-right: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 2px;
+}
+.form-horizontal .radio{
+    padding-top: 4px;
+}
+
+
+a{
+    cursor: pointer;
+}
+
+.modal-body ul{
+    border:1px solid #888;
+    /*height: 143px;*/
+    /*overflow-y: auto;*/
+}
+.modal-body table li{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding:10px;
+
+}
+
+.tiaojian li:last-child{
+    border-width: 0;
+}
+
+
+s.glyphicon {
+    color: #f60;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 8px;
+    text-decoration: none;
+    top: 2px;
+    float: right;
+}
+
+.modal-mm{
+    width:400px;
+}
+
+.btn-add-dsp-question {
+    margin-left: 20px;
+}

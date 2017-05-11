@@ -1,0 +1,178 @@
+.input-daterange > .form-control {
+    width: 102px;
+}
+
+.input-daterange {
+    margin-right: 5px;
+}
+
+.input-group-addon {
+    width: auto;
+    line-height: inherit;
+}
+
+
+#viewModal .modal-dialog,
+#editModal .modal-dialog {
+    width: 695px;
+}
+
+
+
+.audit-detail {
+    padding: 0 20px 100px;
+    font-size: 14px;
+}
+
+.audit-detail-title {
+    border-bottom: 1px dotted #ddd;
+    padding: 1em 0 .6em;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.audit-table {
+    max-width: 660px;
+    width: 660px;
+}
+
+.audit-table .audit-table {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    /*-ms-border-radius: 3px;*/
+    width: 475px;
+}
+
+.audit-table > thead > tr > th,
+.audit-table > tbody > tr > th,
+.audit-table > tfoot > tr > th,
+.audit-table > thead > tr > td,
+.audit-table > tbody > tr > td,
+.audit-table > tfoot > tr > td {
+    padding: 8px 20px;
+    line-height: 1.428571429;
+    vertical-align: top;
+}
+
+.audit-table > tbody > tr > th {
+    width: 135px;
+    text-align: right;
+    font-weight: normal;
+    position: relative;
+}
+
+.audit-table > tbody > tr > th strong,
+.audit-table > tbody > tr > th em {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.audit-table > tbody > tr > th em {
+    color: #999;
+    font-size: 12px;
+}
+
+.audit-adjunct {
+    display: inline-block;
+    margin-right: 1em;
+    color: #ff6a00;
+}
+
+.audit-table-flow,
+.audit-table-flow > .audit-table > tbody > tr > th {
+    display: block;
+    position: relative;
+}
+
+.audit-table-flow > .audit-table > tbody > tr > td {
+    padding-left: 0;
+    padding-left: 22px\9;
+}
+
+.audit-table-flow-line,
+.audit-table-flow-dot {
+    position: absolute;
+    top: 16px;
+}
+
+.audit-table-flow-line {
+    top: 205px;
+}
+
+.audit-table-flow-line {
+    /*left: 142px;*/
+    left: 150px;
+    width: 2px;
+    height: 75%;
+    border-left: 2px solid #ddd;
+}
+
+.audit-table-flow-dot {
+    /*left: 136px;*/
+    left: 129px;
+    z-index: 99;
+    width: 28px;
+    height: 15px;
+    background-position: 0 -353px;
+}
+
+.audit-table-form input,
+.audit-table-form textarea {
+    width: 300px;
+}
+
+.audit-table-form textarea {
+    height: 5em;
+}
+
+
+.audit-table-form .btn-audit-tg,
+.audit-table-form .btn-audit-tg:hover,
+.audit-table-form .btn-audit-btg,
+.audit-table-form .btn-audit-btg:hover {
+    width: auto;
+    margin-top: 1em;
+    margin-right: .5em;
+    padding: 8px 25px;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.audit-table-form .btn-audit-tg,
+.audit-table-form .btn-audit-tg[disabled],
+.audit-table-form .btn-audit-tg:hover {
+    background: green !important;
+}
+
+.audit-table-form .btn-audit-btg,
+.audit-table-form .btn-audit-btg[disabled],
+.audit-table-form .btn-audit-btg:hover {
+    color: #ffff00 !important;
+    background: red !important;
+}
+
+.b-line th,
+.b-line th:hover,
+.b-line td {
+    border-bottom: 1px dotted #ddd !important;
+}
+
+
+.audit-table-flow-dot {
+    background: url(../../image/icons.png) no-repeat 0 -353px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    left: 129px;
+    width: 28px;
+    z-index: 99;
+}
+
+#editModal .modal-dialog{
+    width: 700;
+}

@@ -1,0 +1,36 @@
+.parameter-title{
+    margin-left: 20px;
+    color:#0000ff;
+    cursor: pointer;
+}
+
+.parameter-body{
+    /*float: left;*/
+    height: 50px;
+}
+
+.parameter-item{
+    margin:5px;
+    display: inline-block;
+    border: 1px dashed #c3c3c3;
+    padding: 8px;
+}
+
+.area-link{
+    color: #666;
+}
+
+.city-link {
+    padding: 0 5px 5px 5px;
+    display: inline-block;
+    height:20px;
+}
+.city-link-selected{
+    border: 1px solid #c3c3c3;
+}
+
+.allCityListTable > tbody > tr > th {
+    width: 11em;
+    text-align: right;
+    vertical-align: top;
+}

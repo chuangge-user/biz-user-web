@@ -1,0 +1,31 @@
+.industry-form {
+    padding-bottom: 30px;
+}
+
+.industry-form input[type=submit] {
+    margin-right: 20px;
+}
+
+.industry-list {
+    padding: 20px;
+}
+
+.industry-list > .checkbox {
+    padding-left: 3em;
+}
+
+.industry-list > .checkbox > label {
+    display: inline-block;
+    width: 24%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.industry-list > .checkbox > label:hover {
+    background: #f5f5f5;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-top: 9px;
+}
+

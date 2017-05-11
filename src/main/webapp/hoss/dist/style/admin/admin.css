@@ -1,0 +1,265 @@
+/* ===========================================================================
+   Layout
+   ======================================================================== */
+.admin {
+    margin-top: 7px;
+}
+
+.suptitle {
+    height: 3.4em;
+    line-height: 3.4;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* menu & permission
+   ========================================== */
+.subbox > .aside {
+    width: 210px;
+    min-height: 500px;
+    padding: 20px 0;
+    float: left;
+}
+
+.subbox.position > .aside{
+    width: 330px;
+}
+
+.subbox.position .ztree{
+    padding: 0 6px;
+}
+
+.subbox.position > .article {
+    margin-left: 349px;
+}
+.subbox.position > .article table{
+    width:auto;
+}
+.subbox.position > .article table th{
+    font-weight: normal;
+    vertical-align: middle;}
+
+.subbox.position > .article table th,
+.subbox.position > .article table td{border-width: 0;}
+
+.subbox.position > .article table tbody tr:hover td,
+.subbox.position > .article table tbody tr:hover th{
+    background-color: #fff;
+}
+
+
+.subbox > .aside .control{ padding-left: 22px;}
+.subbox > .aside .control a{ margin-right: .5em;}
+
+.subbox > .aside > .icon {
+    margin: 0 25px;
+    float: left;
+    height: 32px;
+    border: 1px solid #E8E8E8;
+}
+
+.subbox > .aside > .icon > a {
+    cursor: pointer;
+    width: 31px;
+    height: 31px;
+    display: block;
+    float: left;
+    border-left: 1px solid #D3D3D3;
+    background: url(../../image/admin-submenuicon.png) 0 8px no-repeat;
+    -webkit-box-shadow: inset 0px -4px 5px 1px rgba(0, 0, 0, .125);
+    box-shadow: inset 0px -4px 5px 1px rgba(0, 0, 0, .125);
+}
+
+.subbox > .aside > .icon > a.focus,
+.subbox > .aside > .icon > a:hover {
+    -webkit-box-shadow: inset 0 3px 18px rgba(0, 0, 0, .125);
+    box-shadow: inset 0px -4px 18px 1px rgba(0, 0, 0, .125);
+}
+
+.subbox > .aside > .icon > a:first-child {
+    border-left-width: 0;
+}
+
+.subbox > .aside > .icon  > a.add {
+    background-position: 9px 8px;
+}
+
+.subbox > .aside > .icon > a.addsub {
+    background-position: -24px 8px;
+}
+
+.subbox > .aside > .icon > a.del {
+    background-position: -58px 8px;
+}
+.subbox > .aside > .icon > a.moveup {
+    background-position: -90px 8px;
+}
+
+.subbox > .aside > .icon > a.movedown {
+    background-position: -122px 8px;
+}
+
+.subbox > .aside > .icon > a.undo {
+    background-position: -190px 8px;
+}
+
+.subbox > .aside > .icon > a.start {
+    background-position: -157px 8px;
+}
+
+.subbox > .aside > .search {
+    margin: 15px 10px;
+    clear: both;
+}
+
+.subbox > .aside > .search input{
+    float: left;
+}
+
+.subbox > .aside > .search .form-control-sm{
+    width:112px;
+}
+
+/* submenus
+   =============================*/
+.submenu {
+    padding: 10px 15px 15px;
+    clear: both;
+}
+
+.submenu dl {
+}
+
+.submenu dl dt {
+    padding-left: 1.7em;
+    margin: 0 0 5px;
+    background-color: #F2F2F2;
+}
+.submenu dl dt span{
+    display: inline-block;
+    float: left;
+    margin-right:.5em;
+    height: 24px;
+    width: 15px;
+    background: url(../../image/au-menu-icon.png) -30px  9px no-repeat;
+}
+.submenu dl.closetree dt span{
+    background-position:0 9px;
+}
+.submenu dl.closetree dd,
+.submenu dl dd.closesubtree ul{display: none;}
+
+.submenu dl dt,
+.submenu dl dd {
+    line-height: 30px;
+    text-align: left;
+}
+
+.submenu dl dd p{
+    margin:0 15px 0 41px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.submenu dl dd ins{display: inline-block;
+    float: left;
+    width:16px;
+    height:25px;
+    background: url(../../image/au-menu-icon.png) -31px -15px no-repeat;
+}
+
+.submenu dl dd.closesubtree ins{
+    background-position:0 -16px;
+}
+
+.submenu dl dd li{margin-left:3.5em;}
+.submenu dl dd a {
+    color: #666;
+    width: 100%;
+    height: 30px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.subbox > .article {
+    margin-left: 220px;
+    min-height: 500px;
+}
+
+.subbox > .article ol{
+    display: inline-block;
+    float: left;
+    padding: 15px 25px;
+    width: 50%;
+    border-left:1px solid #f1f1f1;
+    min-height: 500px;
+}
+.subbox > .article ol:first-child{
+    border-left-width: 0;
+}
+
+.subbox > .article ol cite{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.subbox > .article > .control {
+    height: 25px;
+    line-height: 25px;
+    margin: 20px 28px;
+}
+
+.subbox > .article > .control a {
+    display: block;
+    float: right;
+    padding-left: 17px;
+    color: #666;
+    font-weight: normal;
+    background: url(../../image/pro-sys-icon.png) 0 5px no-repeat;
+}
+
+.subbox > .article > .control a.edit {
+    background-position: 0 -15px;
+}
+
+.subbox > .article > .control a.add {
+    background-position: 0 5px;
+}
+
+.subbox > .article > table {
+    margin: 0 auto;
+}
+
+.subbox > .article > table th {
+}
+
+.subbox > .article > table td input,
+.subbox > .article > table td select {
+    width: 271px;
+}
+
+td.submitbtn{
+    text-align: center;padding-top:30px;
+}
+
+td.submitbtn button{
+    margin: 0 10px;
+}
+
+.btn-groups{
+    clear: both;
+    text-align: center;
+    padding:25px 10px;
+}
+.btn-groups .btn-submit{margin:0 .6em;}
+
+
+.role-setting a,
+.staff .table td a,
+.set-position a{ cursor: pointer;}

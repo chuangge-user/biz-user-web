@@ -1,0 +1,60 @@
+.change .modal-body caption{
+    padding-bottom: 5px;
+}
+.change .modal-body caption .row div{
+    white-space: nowrap; line-height: 2.4;
+}
+
+.table-table thead>tr> th,
+.table-table tbody>tr> td,
+.table-table tfoot>tr> td{
+    vertical-align: middle;
+}
+
+.table-table thead>tr> th,
+.table-table tbody>tr> td,
+.change .modal-body table,
+.change .modal-body .table> thead>tr>th{
+    text-align: center
+}
+.btns{ padding-bottom: 10px;}
+
+.table-table thead th{
+    background-color: #f0f0f0;
+}
+.table-table p{
+    margin-bottom: 0;
+}
+.table-table input[type="checkbox"],
+.table-table label,
+.change .modal-body table td a{
+    cursor: pointer;
+}
+
+.table-table tfoot button{
+    position: relative;
+    left: 6px;
+    top:-2px;
+}
+
+caption .row input{
+    margin-right: .5em;
+}
+caption .row input,
+caption .row button{
+    display: inline-block;
+}
+caption .row button{
+    position: relative;
+    top:-2px;
+}
+
+#changeList {
+    margin-top: 15px;
+}
+
+#changeList .btn-block {
+    margin: 0;
+}
+
+

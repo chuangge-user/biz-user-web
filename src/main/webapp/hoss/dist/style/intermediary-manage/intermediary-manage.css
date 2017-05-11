@@ -1,0 +1,39 @@
+
+.search-line .form-control.input-w5 {
+    max-width: 125px;
+    min-width: 125px;
+}
+
+.table thead > tr > th {
+    background-color: #f0f0f0;
+    white-space: nowrap;
+}
+
+.table tbody > tr >td p{
+    white-space: nowrap;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-daterange.input-group .input-group-addon {
+    display: inline-block;
+    margin-left: 0;
+    padding: 6px 10px;
+}
+
+
+.eidt-intermediary .table>tbody>tr>td{
+    border-width: 0;
+}
+
+.add-intermediary em,.eidt-intermediary em{
+	color: #f00;
+	margin-left:5px;
+	margin-top:5px;
+}

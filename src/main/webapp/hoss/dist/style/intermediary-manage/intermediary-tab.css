@@ -1,0 +1,148 @@
+
+/*
+/  中介基本信息
+/  中介合作项目
+*/
+
+.nav_wrapper {
+    /*background: url(../../image/menu_bg.jpg) left top repeat-x;*/
+}
+
+.nav_block {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+}
+
+.nav_block ul {
+    padding-left: 5px;
+}
+
+.nav_block ul li {
+}
+
+.nav_block .first {
+    background-image: none;
+}
+
+.nav_block li {
+    background-image: url("../../image/menu_line.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    font-size: 15px;
+    margin: 0;
+    padding: 1px 5px 0 7px;
+    text-align: center;
+}
+
+.nav_block li a {
+    border-radius: 3px;
+    color: #666666;
+    padding: 6px 10px 3px;
+    text-decoration: none;
+}
+
+.nav_block li a s {
+    text-decoration: none;
+    margin-right: .3em;
+}
+
+.nav_block li a:hover, .nav_block a.active {
+    background-color: #ff8736;
+    color: #fff;
+    text-decoration: none;
+}
+
+h3.company-name {
+    font-size: 16px;
+}
+
+h3.company-name i {
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.form-control.e4{
+    max-width: 9em;
+}
+
+
+/*basic-information
+==================================*/
+.count-table thead td {
+    font-size: 14px;
+    color: #666;
+    /*background-color: #f1f1f1;*/
+}
+
+.count-table tbody td {
+    font-size: 14px;
+}
+
+.count-table tbody td strong {
+    margin-right: 2px;
+    color: #FF6600;
+}
+
+.count-table tbody td a:hover,
+.count-table tbody td a:focus {
+    text-decoration: none;
+}
+
+.list-table caption{
+    text-align: left;
+}
+
+.list-table caption .search-line{
+    background-color: #fff;
+    padding: 10px 0 10px 10px;
+}
+
+.list-table caption h4 {
+    background-color: #dfdfdf;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.list-table.table > thead > tr > td {
+    background-color: #f1f1f1;
+
+}
+.list-table.table-bordered > thead > tr > td {
+    border-bottom-width: 1px;
+}
+
+.list-table td s {
+    text-decoration: none;
+}
+
+.r-column table {
+    margin-bottom: 0
+}
+
+.r-column caption h4 {
+    border-bottom: 1px solid #eee;
+}
+
+.r-column .pagination-wrap {
+    margin-top: 0;
+}
+
+.r-column tbody td{
+}
+
+.r-column img{
+    display: block;
+    width: 100%;
+}
+
+/*cooperation-projects
+==================================*/
+
+

@@ -1,0 +1,139 @@
+.toTab {
+    cursor: pointer;
+}
+
+.to-do-content {
+    margin-top: 15px;
+    min-height: 500px;
+}
+
+.to-do-content .table > thead > tr > th {
+    background-color: #f0f0f0;
+}
+
+.to-do-content .table > tbody > tr > th,
+.to-do-content .table > tbody > tr > td {
+    border-top-color: #ddd;
+    vertical-align: middle;
+}
+
+.to-do-content th {
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.to-do-content em {
+    color: #f00;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: .4em;
+}
+
+.to-do-content h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.to-do-content h2 span{
+    font-size: 13px;
+}
+
+.to-do-content h3 {
+    font-size: 13px;
+}
+
+.to-do-content .nav-table-tabs {
+    overflow: hidden;
+}
+
+.to-do-content .table input.e6 {
+    max-width: 6em;;
+}
+
+.to-do-content .table input.e4 {
+    max-width: 4em;;
+}
+
+.to-do-content .table input.txt {
+    min-width: 20em;
+}
+
+.to-do-content .table input.w100 {
+    min-width: 36em;
+    max-width: 90%;;
+}
+
+.to-do-content tr th p {
+    color: #bbb;
+}
+
+.table textarea {
+    resize: none;
+}
+
+.to-do-content textarea{
+    font-size: 13px;
+}
+
+.to-do-content .nav-table-tabs {
+    margin-bottom: -1px;
+}
+
+.table pre {
+    border-style: none;
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+    color: #666;
+}
+
+.radio-inline, .checkbox-inline {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+
+    margin-bottom: 0;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.radio-inline input, .checkbox-inline {
+    margin-top: 1px;
+}
+
+.tab-content .table > tbody > tr > td {
+    padding: 20px;
+}
+
+.btn-groups {
+    padding: 25px 5px;
+}
+
+.btn-groups div {
+    padding-bottom: 20px;
+}
+
+.btn-groups div button {
+    margin: 0 10px;
+}
+
+
+.table > tbody > tr > td.no-bordered{
+    border-width: 0;
+}
+.table > tbody > tr > td.no-bordered .table-bordered{
+    border-width: 0;
+}
+.table > tbody > tr > td.no-bordered{
+    padding:0;
+}
+td.no-bordered .table-bordered > thead > tr > td {
+    border-bottom-width: 0;
+}
+td.no-bordered .table-bordered > tbody > tr > td{
+    border-bottom-width: 0;
+}
+td.no-bordered .table{
+    margin-bottom: 0;
+}

@@ -1,0 +1,97 @@
+
+/*    Element
+   ========================================== */
+.input-w5 {
+    width: 5em;
+}
+
+.input-w10 {
+    width: 10em;
+}
+
+.finance-table em, .modal-dialog em {
+    color: #f00;
+    font-style: normal;
+}
+
+.finance-table th {
+    background-color: #f0f0f0
+}
+
+.finance-table tbody > tr > td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: middle
+}
+
+.finance-table p {
+    margin-bottom: 0;
+    color: #cdcdcd;
+}
+
+.finance-table label {
+    font-weight: normal;
+}
+
+.finance-table textarea {
+    font-size: 13px;
+}
+
+.noresize {
+    resize: none;
+}
+
+.table > thead > tr > th {
+    border: 1px solid #ddd;
+}
+
+.table > tfoot > tr td {
+    border-top-width: 0;
+}
+
+.table td a {
+    cursor: pointer
+}
+
+/* datepicker
+   ========================================== */
+.search-line .datepicker {
+    padding: 0
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+
+/* windowsopen
+   ========================================== */
+.modal-dialog .table th {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+.modal-dialog textarea {
+    font-size: 13px;
+}
+
+.modal-dialog .pagination-wrap {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.btn-groups {
+    padding: 15px
+}
+
+.btn-groups button,
+.search-line.btn-groups > input.btn-submit {
+    margin: 0 .6em;
+    font-weight: normal
+}

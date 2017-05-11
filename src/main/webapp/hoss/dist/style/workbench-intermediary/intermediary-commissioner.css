@@ -1,0 +1,10 @@
+
+
+.count-all-i ul li a{
+    padding-left: 20px;
+}
+.count-all-i .nav-table-tabs > li.active > a,
+.count-all-i .nav-table-tabs > li.active > a:hover,
+.count-all-i .nav-table-tabs > li.active > a:focus{
+    padding-left: 18px;
+}

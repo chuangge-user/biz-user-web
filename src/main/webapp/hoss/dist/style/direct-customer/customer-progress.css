@@ -1,0 +1,110 @@
+
+
+h3 {
+    font-size: 16px;
+}
+
+.project-process a p{
+    padding-top: 6px;
+}
+
+.project-process.p1  .i1 s,
+.project-process.p2  .i1 s,
+.project-process.p3  .i1 s,
+.project-process.p4  .i1 s,
+.project-process.p4  .i2 s,
+.project-process.p4  .i2 b,
+.project-process.p5  .i1 s,
+.project-process.p6  .i1 s,
+.project-process.p6  .i2 s,
+.project-process.p7  .i1 s,
+.project-process.p7  .i2 s,
+.project-process.p7  .i3 s,
+.project-process.p8   s,
+.project-process.p9  .i1 s,
+.project-process.p9  .i2 s,
+.project-process.p9  .i3 s{
+    color: #FF6600;
+}
+
+
+.project-process.p1  .i1 i,
+.project-process.p2  .i1 i,
+.project-process.p4  .i1 i,
+.project-process.p4  .i2 i,
+.project-process.p5  .i1 i,
+.project-process.p6  .i1 i,
+.project-process.p6  .i2 i,
+.project-process.p7  .i1 i,
+.project-process.p7  .i2 i,
+.project-process.p7  .i3 i,
+.project-process.p8  .i1 i,
+.project-process.p8  .i2 i,
+.project-process.p8  .i3 i,
+.project-process.p8  .i4 i,
+.project-process.p9  .i1 i,
+.project-process.p9  .i2 i,
+.project-process.p9  .i3 i{
+    background-position: 0 0;
+}
+.project-process.p3  .i1 i,
+.project-process.p5  .i2 i,
+.project-process.p6  .i3 i{
+    background-position: 0 -90px;
+}
+
+
+
+.project-process > dt{
+    color: #333;
+    width: 100%;
+    background: transparent;
+    position: inherit;
+    padding:0 ;
+    height: 35px;
+}
+
+.project-process{
+    height: auto;
+}
+.project-process > dd,
+.nav-project-process,
+.nav-project-process > li{
+    height: 111px;
+    padding-left: 0;
+}
+.nav-project-process{
+    height: 91px;
+}
+
+.nav-project-process > li > a {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.project-process s{
+    text-decoration: none;
+}
+
+.project-process i{
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../image/project-process-icon.png);
+    background-position: 0 -60px;
+    background-repeat: no-repeat;
+}
+/*.i-process.process-not-start i{
+    background-position: 0 -30px;
+}
+.i-process.process-remind i{
+    background-position: 0 -90px;
+}*/
+/*.i-process.process-not-pass i{
+    background-position: 0 -60px;
+}*/
+/*.i-process.process-done i{
+    background-position: 0 0;
+}*/

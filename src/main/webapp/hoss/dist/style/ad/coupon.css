@@ -1,0 +1,110 @@
+[class*=glyphicon-asterisk] {
+    color: red;
+}
+
+.coupon-table{
+    margin-top:20px;
+}
+
+.coupon-table tr > *:nth-child(2n + 1){
+    text-align: right;
+    font-weight: bold;
+}
+.coupon-table [type=radio],[type=checkbox] {
+    position: relative;
+    top:3px;
+    left:0px;
+    cursor: pointer;
+}
+
+.add-area{
+    font-size: 10px;
+    color: #008000;
+    cursor: pointer;
+}
+
+.date-width{
+    width:80px;
+}
+#upload-img-title,#info-title {
+    vertical-align: top;
+}
+#upload-img-body * {
+    vertical-align: bottom;
+}
+
+label{
+    font-weight: normal;
+}
+
+.info-status-box{
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    top:10px
+}
+.info-status-box li{
+    width:160px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.info-status-box li:hover .info-status-item{
+    background: #00cc00;
+}
+.info-status-checked .info-status-item{
+    background: #00cc00;
+}
+.info-status-item{
+    background: #aeaeae;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid #7d7d7d;
+}
+
+.info-title-text{
+    vertical-align: top;
+    margin-top: 24px;
+    display: inline-block;
+}
+.info-status-line{
+    width: 480px;
+    border: 1px solid #0099cc;
+    position: absolute;
+    top: 40px;
+    left: 190px;
+}
+
+#datepicker input{
+    width:140px;
+}
+
+.putProjectContainer{
+    display: none;
+}
+
+.title-width{
+     width: 270px;
+    max-width: 270px;
+}
+
+#coupon-img,#imgFile{
+    max-width: 300px;
+}
+
+#valign-top > td{
+    vertical-align: top;
+}
+
+.absolute{
+    position: absolute;
+}
+
+#couponInfoModal button[class="close"]{
+    position: relative;
+    top: -60px;
+}
+
+

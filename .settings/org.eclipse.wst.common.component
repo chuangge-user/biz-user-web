@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="biz-user-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="inf-config-ctx-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/inf-config-ctx/inf-config-ctx">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="inf-util-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/inf-util/inf-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="biz-user-api-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biz-user-api/biz-user-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chuangge-dubbo-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-dubbo/chuangge-dubbo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chuangge-mybatis-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-mybatis/chuangge-mybatis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chuangge-common-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-common/chuangge-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chuangge-jdbc-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-jdbc/chuangge-jdbc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chuangge-redis-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-redis/chuangge-redis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chuangge-web-2.0-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/chuangge-web/chuangge-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/biz-user-web/target/classes"/>
+        <property name="context-root" value="biz-user-web"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,21 @@
+#showInfo {
+    margin-top: 15px;
+}
+
+.table-b1-th th {
+    width: 10em;
+    text-align: right;
+}
+
+.table-b1-th th,
+.table-b1-th td {
+    vertical-align: middle;
+}
+
+.table-b1-th label {
+    margin: 0 .5em 0 0;
+}
+
+.a-r {
+    padding: 10px;
+}

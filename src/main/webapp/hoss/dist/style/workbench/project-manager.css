@@ -1,0 +1,17 @@
+.modal-body> .table > tbody > tr > th,
+.modal-body> .table > tbody > tr > td{
+    padding:8px 5px;
+}
+.modal-body> .table > tbody > tr > th{
+    background-color: #f0f0f0;
+    border-top-color: #ddd;
+}
+
+.modal-body> .table > tbody > tr > td a{
+    cursor: pointer;
+}
+
+
+
+
+

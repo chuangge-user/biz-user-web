@@ -1,0 +1,87 @@
+.print {
+    font-size: 13px;
+    margin-left: 2em;
+}
+
+.reviewlabel {
+    font-size: 13px;
+    padding-top: .25em;
+    padding-right: 2em;
+}
+
+/*支付打开页面：*/
+.table-list {
+    overflow: hidden;
+    margin: 0 auto 0;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.cashier-title {
+    padding: 20px 15px 5px;
+}
+
+.cashier-title a.toTab {
+    cursor: pointer;
+}
+
+.cashier-title h3, .cashier-title span {
+    margin-top: 0
+}
+
+.cashier-title h3 {
+    font-size: 13px;
+}
+
+.cashier-title h3 strong {
+    font-size: 14px;
+    margin-right: 2em;
+}
+
+.cashier-title span {
+}
+
+.table-list .table,
+.table-list .row {
+    margin: 0;
+}
+
+.table-list .row div {
+    white-space: nowrap;
+    display: table-cell;
+    border: 1px solid #ddd;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.table-list .row td {
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+}
+
+.table-list .row div,
+.table-list .row td {
+    border-width: 1px 0 0 1px;
+}
+
+h5 {
+    font-size: 13px;
+    margin: 20px auto 20px 5px;
+}
+
+.tab-content {
+    margin-top: -1px;
+}
+
+.tab-content table > tbody > tr > td {
+    padding: 10px 25px;
+    line-height: 1.8;
+}
+
+.tab-content table > tbody > tr > td p {
+    margin-bottom: 0
+}
+
+

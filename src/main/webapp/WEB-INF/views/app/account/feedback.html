@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>问题反馈</title>
+
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;url=../upgrade-browser/index.html"><![endif]-->
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=../no-script/index.html">
+    </noscript>
+
+    <link rel="stylesheet" type="text/css" href="../../dist/style/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../dist/style/common.css">
+
+
+    <link rel="stylesheet" type="text/css" href="../../dist/style/account/feedback.css">
+
+</head>
+
+<body>
+<header class="wrap header">
+    <div class="logo pull-left"><img src="../../dist/image/logo.png" alt="好屋中国"></div>
+
+    <div class="account text-right">
+        <span id="accountDay" class="account-day"></span>
+        <span id="accountWeek" class="account-week"></span>
+        您好，<span id="accountRole" class="account-role"></span>
+        <span id="accountName" class="account-name"></span>
+        <a id="feedback" href="../account/feedback.html">问题反馈</a>
+        <a id="logout" href="../account/logout.html">退出</a>
+    </div>
+
+    <ul id="nav" class="nav nav-main"></ul>
+</header>
+
+
+
+<!-//-->
+<button class="btn btn-xs btn-warning" data-target=".feedback" data-toggle="modal">问题反馈</button>
+
+<!--/问题反馈/-->
+<div class="modal fade feedback" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-m">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">问题反馈</h4>
+            </div>
+            <form id="feedbackSubmitButtion" name="feedbackSubmitButtion" method="post" action="/hoss/sys/questionFeedback.do" enctype="multipart/form-data">
+                <div class="modal-body">
+                <table class="table">
+
+                    <tbody>
+                    <tr>
+                        <td>反馈类型</td>
+                        <td>
+                            <select class="form-control-sm" id="feeType" name="feeType">
+                                <option value="">请选择</option>
+                                <option value="1">界面问题</option>
+                                <option value="2">具体功能</option>
+                                <option value="3">其他问题</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>提交类型</td>
+                        <td>
+                            <select class="form-control-sm" id="submitType" name="submitType">
+                                <option value="">请选择</option>
+                                <option value="1">发现一个错误</option>
+                                <option value="2">提交改进建议</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>反馈内容</td>
+                        <td>
+                            <textarea class="form-control" id="content" name="content"></textarea>
+                        </td>
+                    </tr>
+
+                    <table id="fileUploadTable" class="table table-hover table-responsive table-bordered"></table>
+                    <tr>
+                        <td></td>
+                        <td><span class="description">您可以上传1M以内的jpg、jpeg、png和gif格式的图片文件</span></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">如有任何建议也可发送至邮箱：hoss@haowu.cn</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                <div class="btns text-center">
+                    <button type="submit" class="btn btn-sm btn-warning">提交</button>
+                </div>
+
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="../../lib/esl/1.8.2/esl.js"></script>
+<script src="../../lib/esl/config.js"></script>
+
+<script>require(['script/account/feedback']);</script>
+</body>
+</html>

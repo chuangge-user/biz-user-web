@@ -1,0 +1,33 @@
+.subbox > .aside{
+    width:270px;
+}
+.subbox > .article{
+    margin-left:290px;
+    padding: 0;padding-top: 25px;
+}
+
+.subbox > .article > table{
+    width:96%;
+    border: 1px solid #e8e8e8;
+}
+
+.subbox > .article > table thead th{
+    background-color: #f0f0f0;
+}
+
+.subbox > .article > table td.search-line{
+    text-align: center
+}
+.subbox > .article > table td.search-line input{
+    width:auto;
+    margin-right: 1.2em;
+}
+.ztree *{font-size: 13px;}
+
+#userList {
+    /*width: 100%;*/
+}
+
+.article{
+    padding:20px 25px;
+}

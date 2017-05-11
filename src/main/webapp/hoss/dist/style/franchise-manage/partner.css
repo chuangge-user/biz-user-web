@@ -1,0 +1,20 @@
+.bottom-line{
+    border-bottom:2px dashed #c3c3c3;
+    padding: 5px;
+}
+
+[class*=glyphicon-asterisk]{
+    color:#ff0000;
+    margin:0px 5px;
+}
+
+.noresize{
+    resize: none;
+}
+.margin-top-5{
+    margin-top: 5px;
+    width:12%;
+}
+.default-height{
+    height:20px;
+}

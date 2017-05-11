@@ -1,0 +1,119 @@
+.e10{
+    min-width: 10em;
+    max-width: 10em;
+    width: 10em;
+}
+.e7{
+    min-width: 7em;
+    max-width: 7em;
+    width: 7em;
+}
+.e5{
+    min-width: 5em;
+    max-width: 5em;
+    width: 5em;
+}
+
+.table-wrap .table thead th{
+    background-color: #f0f0f0;
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ad-manage .table td a{
+    cursor: pointer;
+    
+}
+
+.share-detail .modal-header{
+    border-bottom-width: 0;
+}
+
+
+.share-detail .table thead th{
+    background-color: #f0f0f0;
+}
+
+.search{
+    /*overflow: visible;*/
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #eee;
+    color: #262626;
+    text-decoration: none;
+}
+
+
+/*.input-daterange {*/
+    /*display: inline-block;*/
+/*}*/
+
+.input-daterange > .form-control {
+    width: 102px;
+}
+
+.input-daterange {
+    margin-right: 5px;
+}
+
+.input-group-addon {
+    width: auto;
+    line-height: inherit;
+}
+
+.search-line .datepicker {
+    padding: 0
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-daterange.input-group .input-group-addon{
+    padding: 6px 10px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.form-horizontal .control-label{
+    font-weight: normal;
+    margin-right: 1em;
+}
+
+.search-line ~ .search-line {
+    padding-top: 10px;
+}
+
+#searchResultItem caption {
+    padding: 10px;
+}
+
+#showBtn .btn {
+    font-size: 14px;
+    min-width: 120px;
+    width: 120px;
+}
+
+#showBtn .dropdown-menu {
+    min-width: 120px;
+    width: 120px;
+}

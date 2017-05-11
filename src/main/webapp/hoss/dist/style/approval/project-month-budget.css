@@ -1,0 +1,5 @@
+.table-list thead tr > th,
+.table-list thead tr > td {
+    border-top-color: #ddd;
+    border-bottom-width: 0;
+}

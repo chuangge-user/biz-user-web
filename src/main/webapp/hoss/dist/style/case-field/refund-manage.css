@@ -1,0 +1,129 @@
+/*    Element
+   ========================================== */
+.input-w5 {
+    width: 5em;
+}
+
+.input-w10 {
+    width: 10em;
+}
+.w15 {
+    width: 15em;
+}
+.w1 {
+    width: 1em;
+}
+.w8 {
+    width: 7em;
+}
+.noresize {
+    resize: none;
+}
+
+.table > thead > tr > th {
+    border: 1px solid #ddd;
+}
+
+.table > tfoot > tr td {
+    border-top-width: 0;
+}
+
+.table td a {
+    cursor: pointer
+}
+
+#refund-manage .table thead >tr> th{
+    background-color: #f0f0f0;
+}
+#refund-manage .table tbody >tr> td p{
+    color: #999;
+    margin-bottom: 0;
+}
+
+.table tfoot>tr> td label{
+    font-weight: normal;
+    position: relative;;
+    top:-2px;
+    left: 4px;
+}
+.table tbody>tr> td{
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.input-daterange > .form-control {
+    width: 142px;
+    text-align: left;
+}
+
+/* datepicker
+   ========================================== */
+.search-line .datepicker {
+    padding: 0
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+
+/* windowsopen
+   ========================================== */
+.modal-dialog .table th {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+.modal-dialog textarea {
+    font-size: 13px;
+}
+
+.modal-dialog .pagination-wrap {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.btn-groups {
+    padding: 15px
+}
+
+.btn-groups button,
+.search-line.btn-groups > input.btn-submit {
+    margin: 0 .6em;
+    font-weight: normal
+}
+
+.form-group label{white-space: nowrap;}
+
+.form-group div.col-sm-9{line-height: 2.5;}
+
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-daterange.input-group .input-group-addon{
+    padding: 6px 10px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.form-horizontal .control-label{
+    font-weight: normal;
+    margin-right: 1em;
+}
+
+[aria-labelledby] input[type=file]{
+	line-height: 1em;
+}
+

@@ -1,0 +1,37 @@
+.qkb-title-wrap {
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fbfbfb;
+}
+.qkb-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.qkb-title > .i-qkb-title {
+    margin-right: 10px;
+}
+.i-qkb-title {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 25px;
+    background: url(../image/new-apply-icon.png) no-repeat 0 -25px;
+}
+.qkb-title,
+.qkb-info,
+.qkb-more {
+    vertical-align: middle;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+.qkb-info {
+    padding-left: 1.5em;
+}
+.qkb-more {
+    position: absolute;
+    right: 15px;
+}

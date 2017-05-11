@@ -1,0 +1,278 @@
+
+/* =====共=本店佣金================================== */
+.tempBox {
+    /*border-radius:4px;*/
+    margin-top:15px;
+    padding:5px 10px 10px;
+    color:#333;
+    background:#fff;
+}
+.tempBox_nav {
+    height:30px;
+    min-width: 296px;
+}
+.tempBox_nav_tit {
+    height:30px;
+    font:bold 16px/30px "\5B8B\4F53";
+    margin: 0px;
+    float:left;
+    color:#2b2b2b;
+}
+.tempBox_nav_menu {
+    width: 250px;
+    height:28px;
+    font:lighter 18px/28px "\5B8B\4F53";
+    margin-left:25%;
+    padding-top: 2px;
+    display:inline-block;
+}
+.tempBox_nav_menu .subtitle {
+    padding:0;
+    margin: 0;
+}
+.tempBox_nav_menu .itemCrr, .itemNor {
+    font:lighter 14px/18px "\5FAE\8F6F\96C5\9ED1";
+}
+.tempBox_nav_more {
+    display:inline;
+    float:right;
+    padding-top:8px;
+    margin-right:5%;
+}
+.tempBox_nav_more .link {
+    color:#0073b6;
+    font:lighter 12px/20px "\5B8B\4F53";
+}
+.tempBox_nav_more .link:hover {
+    color:#ff6600;
+}
+.rgt-btn {
+    padding-top:4px;
+}
+.rgt-btn .link-btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 3px 30px;
+}
+.tempBox_main {
+    padding-top:10px;
+}
+
+
+/* =====共=楼盘动态================================== */
+.property-box {
+    min-width: 296px;
+    margin-bottom:15px;
+    content: " ";
+    display: table;
+    clear:both;
+}
+.property-box_pic {
+    width:102px;
+    height:102px;
+    line-height:0;
+    display:inline;
+    float: left;
+}
+.property-box_pic img {
+    width:102px;
+    height:102px;
+}
+.property-box_details {
+    display:inline;
+    float: left;
+    padding-left:10px;
+    font-size:13px;
+    line-height:18px;
+}
+.property-box_details .prop-name {
+    color:#00f;
+}
+.property-box_details .prop-price {
+    margin: 0;
+    padding-top: 2px;
+}
+.property-box_details .prop-info {
+    margin: 0;
+    color:#ff8100;
+    height:38px;
+    line-height:16px;
+    overflow: hidden;
+    padding-top: 2px;
+}
+.property-box_details .prop-btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 3px 30px;
+}
+
+
+/* ====共=本月客户统计================================== */
+.customer-statistics {
+    padding: 10px 0 0 15px;
+}
+.statistics-box {
+    height:62px;
+}
+.statistics-box-pic, .statistics-box-main {
+    float: left;
+    height:62px;
+    padding: 0;
+    margin: 0;
+}
+.statistics-box-pic {
+    width: 70px;
+}
+.statistics-box-pic .ico-bg01 {
+    display: block;
+    width:58px;
+    height: 62px;
+    background: url("../../image/u374.png") no-repeat center;
+}
+.statistics-box-main {
+    padding-top:8px;
+}
+.statistics-box-main .depict {
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    color: #282828;
+}
+.statistics-box-main .data {
+    margin: 0;
+    height: 28px;
+    line-height:28px;
+}
+.statistics-box-main .mutation {
+    display: inline-block;
+    height: 16px;
+    line-height:14px;
+    padding:1px 8px;
+    margin-left: 7px;
+    background: #ff8101;
+    color:#fff;
+    border-radius:3px;
+}
+.statistics-box-main .num {
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+/* ====工作台=直接经纪人================================== */
+.pl-5 {
+    padding-left: 5px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pr-0 {
+    padding-right: 0px;
+}
+
+/* =====我的业绩================================== */
+.my-results {
+    height: 270px;
+    padding:5px 0;
+}
+.commission-records {
+    font-size: 16px;
+    font-family: "\5B8B\4F53";
+}
+.commission-records  .dt, .dd {
+    height: 28px;
+    line-height: 28px;
+    display: inline;
+    float: left;
+    font-weight: lighter;
+    margin: 0;
+}
+.commission-records .dl {
+    width: 100%;
+    height: 28px;
+    margin: 15px 0;
+    display: block;
+}
+.commission-records .dt {
+    width:110px;
+    padding-left: 28px;
+}
+.commission-records .dd {
+    width: 120px;
+    padding-left: 7px;
+}
+.commission-records .num {
+    font-size:24px;
+    color:#ff8100;
+    font-family: "Arial Normal","Arial";
+}
+.commission-records .nor-num {
+    font-size: 20px;
+    color:#333230;
+}
+.commission-records .cur-month {
+    height: 60px;
+}
+.commission-records .cu-dt, .cu-dd {
+    float: left;
+    clear: both;
+}
+.commission-records .cu-dd {
+    padding-left: 28px;
+    width: 90%;
+}
+.commission-records .cur-ms {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 13px;
+
+}
+
+
+/* =====客户动态================================== */
+.customer-news {
+    font-size:13px;
+    font-family: "Arial Normal","Arial";
+    color:#333;
+    padding:5px 0;
+}
+.customer-news .list {
+    padding:3px 0 3px 8px;
+    margin:0;
+    line-height: 20px;
+    display: block;
+}
+.customer-news .date {
+    display: inline-block;
+    padding-left: 12px;
+}
+.customer-news .stress {
+    color: #f60;
+}
+
+/* =====排行榜================================== */
+.top-info {
+    height: 182px;
+    padding-top:8px;
+}
+
+.top-list {
+    padding-left: 5px;
+}
+.top-list p strong{
+    font-size: 20px;
+}
+
+
+
+footer{
+    margin-top: 80px;
+}
+
+
+
+
+

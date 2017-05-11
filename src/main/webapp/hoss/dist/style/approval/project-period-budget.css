@@ -1,0 +1,378 @@
+/* 查看审批流程 */
+.table-list thead tr > th, .table-list thead tr > td {
+    border-top-color: #ddd;
+    border-bottom-width: 0;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #ddd;
+     padding: 8px; 
+    vertical-align: middle;
+}
+
+
+
+/* ==城市,项目=============================== */
+.new-apply-content {
+    width: 770px;
+}
+.show-sidebar > .container-fluid {
+    width: 770px;
+    padding-left: 0;
+}
+.new-apply-content.container {
+    width: 770px;
+    margin-left: 0;
+}
+
+.cityProBox {
+    height: 60px;
+    width: 769px;
+    margin-left: 0;
+    margin-top: 15px;
+    padding-top: 15px;
+    background: #fff;
+    box-shadow: 1px 0 2px 1px #ccc;
+}
+
+.boxShadow {
+    box-shadow: 0 1px 2px 0 #ccc;
+}
+
+/*收入,支出*/
+.incomeTab, .outlayTab {
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom: 0;
+}
+
+.incomeTab .hbr, .outlayTab .hbr {
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.incomeTab .hbr .htd, .outlayTab .hbr .htd {
+    border: none;
+    background: #bdc2ca;
+}
+
+.incomeTab .txr, .outlayTab .txr {
+    display: inline-block;
+    width: 64px;
+    text-align: right;
+}
+
+.incomeTab-title{
+    border-bottom: 0px;
+}
+
+.content-lv2{
+    margin-left: -20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*分销渠道*/
+.distributionChannels {
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom: 0;
+}
+
+/*渠道销售行为奖励*/
+.salesPractices {
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom: 0;
+}
+
+.salesPractices > tbody > tr > td.plpr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*其他费用*/
+.otherCosts {
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom: 0;
+}
+
+.otherCosts > tbody > tr > td.plpr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*详情表格*/
+.detailTab {
+    border: none;
+    margin-bottom: 0;
+}
+
+.detailTab td, th {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.detailTab th {
+    background: #eff0f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.detailTab .rtd {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    background: #f1f1f1;
+}
+
+.detailTab .btr, .detailTab .btr .btd {
+    border: none;
+    background: #f1f1f1;
+    text-align: left;
+}
+
+.twoBg {
+    background: #f4f4f4;
+}
+
+.borTopRad {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+}
+
+/*修改,新增 图标*/
+.xiuIoc, .newIoc {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.xiuIoc {
+    background: #ed290f;
+}
+
+.newIoc {
+    background: #48c222;
+}
+
+.glyphicon-square {
+    background: #ff774e;
+    width: 9px;
+    height: 9px;
+    margin-right: 3px;
+}
+.sign-c {
+    font-family: "\5B8B\4F53";
+    font-size: 14px;
+    display: inline-block;
+    line-height: 21px;
+    vertical-align: bottom;
+}
+
+/*右侧浮动*/
+.rigFixBox {
+    width: 220px;
+    height: 255px;
+    padding: 10px;
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    background: #fbfbfb;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 #ccc;
+}
+
+.rigFixBox .infoFix {
+    margin: 0 auto;
+    color: #333;
+}
+
+.infoFix .fdt {
+    color: #333;
+    font-weight: bold;
+    padding: 7px 0;
+}
+
+.infoFix .fdd {
+    padding: 5px 0;
+}
+
+.infoFix .fbtn {
+    padding: 6px 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.infoFix .bor-b {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/* 文字 */
+.hui {
+    color: #999;
+}
+
+.iocCol {
+    color: #8f8f8f;
+}
+
+.blue {
+    color: #1674d1;
+}
+
+.tred {
+    color: #ff774e;
+}
+
+.c-ff8 {
+    color: #ff8736;
+    font-weight: bold
+}
+
+.tBold {
+    font-weight: bold;
+    color: #333;
+}
+
+.cur-p {
+    cursor: pointer;
+}
+
+.txt-r {
+    text-align: right;
+    padding-right: 2px;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+/* 重置 */
+.fr {
+    float: right;
+}
+
+.plpr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pt-10 {
+    padding-top: 4px;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.w110 {
+    width: 110px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+.w40 {
+    width: 40px;
+}
+
+.pointer{
+    cursor:pointer;
+}
+.detailTab > tbody > tr > th {
+    border-top: 1px solid #ccc;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    /* margin-top: 3px; */
+    margin-bottom: -5px;
+    padding: 0px;
+    border: 0px;
+	resize:none;
+}
+#area-td{
+    padding: 1px;
+}
+
+.absolueteInfo{
+    position: absolute;
+    display: none;
+    background: #fff;
+    border-top: 1px solid #c3c3c3;
+}
+.topTitTab {
+    width: 500px;
+    margin: -10px 0 0;
+    padding: 0;
+}
+.topTitTab td {
+    padding: 5px;
+}
+
+.add-file{
+	height: 60px;
+	margin-top: 10px;
+}
+.add-file div{
+	padding:0px;
+	width:11%;
+}
+
+h2{
+	font-size:14px;
+}
+
+.menu-lv3-margin{
+    margin-left:5px;
+}
+
+.no-border-top{
+    border-top: 0px !important;
+}
+
+.width-90{
+    width:90%;
+}
+
+.comput-span{
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    width:83px;
+    display: inline-block;
+}
+
+

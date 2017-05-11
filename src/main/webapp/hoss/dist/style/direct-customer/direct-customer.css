@@ -1,0 +1,28 @@
+
+.search-line .form-control.input-w5 {
+    max-width: 125px;
+    min-width: 125px;
+}
+
+.table thead > tr > th {
+    background-color: #f0f0f0;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-daterange.input-group .input-group-addon {
+    display: inline-block;
+    margin-left: 0;
+    padding: 6px 10px;
+}
+
+.modal .table > tbody > tr > td{
+    border-width: 0;
+}
+

@@ -1,0 +1,98 @@
+
+
+/*搜索框*/
+.search form > .search-line > input, .search form > .search-line > select, .search form > .search-line > .autocomplete-wrap {
+    margin-bottom: 0;
+}
+.search{
+    margin-top: 0;
+}
+.search form{
+    margin-bottom: 0px;
+}
+.search-line>div{
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: inline-block;
+}
+.input-daterange > .form-control {
+    width: 102px;
+}
+
+.input-daterange {
+    margin-right: 5px;
+}
+
+.input-group-addon {
+    width: auto;
+    line-height: inherit;
+}
+
+.search-line .datepicker {
+    padding: 0
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-daterange.input-group .input-group-addon{
+    padding: 6px 10px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.table > thead > tr > th {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+caption>div{
+    padding:15px 5px;
+    text-align: left;
+}
+
+caption>div p{
+    margin: 10px 0 0;
+    color: #999;
+}
+
+.modal-body .form-group{
+    padding: 15px 25px;
+}
+
+.modal-body div div{
+    padding:7px 0;
+}
+
+.submit-ok{
+    color: #f60;
+}
+input[type="file"]{
+    display: inline-block;
+}
+
+
+s.glyphicon{
+    text-decoration: none;
+    font-size: 12px;
+    top: 2px;
+    margin-left: 8px;
+    color: #f60;
+    cursor: pointer;
+}

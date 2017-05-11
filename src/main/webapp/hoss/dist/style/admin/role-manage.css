@@ -1,0 +1,90 @@
+.addcustomer h1 {
+    font-weight: bold;
+    font-size: 14px;
+    height: 35px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.search-line .form-control {
+    float: left;
+    max-width: 17em;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.modal-dialog .modal-body table.table > tbody > tr > td {
+    padding: 11px 4px;
+    width: 118px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-sm {
+    margin-bottom: 1.5em;
+}
+
+.btn-user-view .on {
+    color: #398439;
+}
+
+.btn-user-view .off {
+    color: #bbb;
+}
+
+.addcustomer .table th {
+    background-color: #f0f0f0;
+    white-space: nowrap;
+}
+
+.addcustomer .table tbody td input {
+    margin-top: 2px;
+}
+
+.role-setting .submenu dl dd a {
+    padding: 0 25px 0 42px;
+}
+
+.role-setting .submenu a:hover {
+    text-decoration: none;
+}
+
+.role-setting .submenu a.focus span {
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.subbox.role-setting > .article > .edit {
+    height: 50px;
+}
+
+.role-setting .article > table th {
+    background-color: #f0f0f0;
+}
+
+.role-setting .article > table {
+    width: 96%;
+    border: 1px solid #e8e8e8;
+}
+
+.subbox.role-setting .article > table th,
+.subbox.role-setting .article > table td {
+    vertical-align: middle;
+    padding: 12px 8px;
+}
+
+.subbox.role-setting .article > table td {
+    padding: 5px 8px;
+    height: 42px;
+}
+
+.addRoleDiv .modal-body table {
+    width: auto;
+}
+
+.addRoleDiv .modal-body .table th,
+.addRoleDiv .modal-body .table > tbody > tr > td {
+    border-width: 0;
+    width: auto;
+    vertical-align: middle;
+}

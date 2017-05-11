@@ -1,0 +1,135 @@
+
+/*    Element
+   ========================================== */
+.input-w5 {
+    width: 5em;
+}
+
+.input-w10 {
+    width: 10em;
+}
+
+/*.finance-table em, .modal-dialog em {*/
+    /*color: #f00;*/
+    /*font-style: normal;*/
+/*}*/
+
+/*.finance-table th {*/
+    /*background-color: #f0f0f0*/
+/*}*/
+
+/*.finance-table tbody > tr > td {*/
+    /*padding-top: 8px;*/
+    /*padding-bottom: 8px;*/
+    /*vertical-align: middle*/
+/*}*/
+
+/*.finance-table p {*/
+    /*margin-bottom: 0;*/
+    /*color: #cdcdcd;*/
+/*}*/
+
+/*.finance-table label {*/
+    /*font-weight: normal;*/
+/*}*/
+
+/*.finance-table textarea {*/
+    /*font-size: 13px;*/
+/*}*/
+
+/*.noresize {*/
+    /*resize: none;*/
+/*}*/
+
+/*.table > thead > tr > th {*/
+    /*border: 1px solid #ddd;*/
+/*}*/
+
+/*.table > tfoot > tr td {*/
+    /*border-top-width: 0;*/
+/*}*/
+
+/*.table td a {*/
+    /*cursor: pointer*/
+/*}*/
+
+/* datepicker*/
+   /*========================================== */
+/*.search-line .datepicker {*/
+    /*padding: 0*/
+/*}*/
+
+/*.datepicker span {*/
+    /*padding: 4px 5px 0;*/
+    /*margin-left: 0;*/
+    /*background: none;*/
+    /*border-width: 0*/
+/*}*/
+
+/*.datepicker input.form-control {*/
+    /*margin-right: 0*/
+/*}*/
+
+/* windowsopen*/
+   /*========================================== */
+/*.modal-dialog .table th {*/
+    /*background-color: #f0f0f0;*/
+    /*border: 1px solid #ddd;*/
+/*}*/
+
+/*.modal-dialog textarea {*/
+    /*font-size: 13px;*/
+/*}*/
+
+/*.modal-dialog .pagination-wrap {*/
+    /*padding-left: 0;*/
+    /*padding-right: 0*/
+/*}*/
+
+/*.btn-groups {*/
+    /*padding: 15px*/
+/*}*/
+
+/*.btn-groups button,*/
+/*.search-line.btn-groups > input.btn-submit {*/
+    /*margin: 0 .6em;*/
+    /*font-weight: normal*/
+/*}*/
+
+/*.form-group label{white-space: nowrap;}*/
+
+/*.form-group div.col-sm-9{line-height: 2.5;}*/
+
+
+
+
+#createImportForm [type="file"] {
+    display: inline-block;
+    width: 30em;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    font-size: 12px;
+    height: 35px;
+    margin-right: 5px;
+    padding: 0 8px;
+    vertical-align: middle;
+}
+
+#searchResult caption {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+#projectList,
+#projectList2 {
+    display: inline-block;
+    width: auto;
+}
+
+#createAccountTable .form-control,
+.search-line .form-control {
+    max-width: 11em;
+}

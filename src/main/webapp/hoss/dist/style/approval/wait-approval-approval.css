@@ -1,0 +1,28 @@
+.table-list h2 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.table-list h2 span {
+    font-size: 13px;
+}
+.table-list h2 a {
+    cursor: pointer;
+}
+
+
+.table-list tbody>tr>th,
+.table-list tbody>tr>td{
+    vertical-align: middle;
+}
+.noresize{resize: none;}
+
+
+.btn-groups {
+    padding: 25px 5px;
+}
+
+.btn-groups button{
+    margin: 0 .2em;
+}

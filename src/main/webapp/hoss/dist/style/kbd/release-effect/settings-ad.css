@@ -1,0 +1,78 @@
+.ad-wrap {
+    padding: 0 40px 40px;
+}
+
+.ad-list {
+    padding-bottom: 20px;
+}
+
+.ad-list dt {
+    line-height: 2.5;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ad-list .item {
+    float: left;
+    margin-right: 25px;
+    width: 200px;
+    height: 300px;
+}
+
+.ad-list .item-img,
+.ad-list .item-img > img {
+    width: 200px;
+    height: 250px;
+    background: url(../../../image/img-default.gif) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.item-btn {
+    padding-top: 10px;
+}
+
+.item-btn > .label > input[type="radio"],
+.item-btn > .label > input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+.del-selected {
+    margin-left: 20px;
+}
+
+.settings-merchant {
+    display: inline-block;
+    padding: 0 0 0 2em;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.settings-merchant > input {
+    margin: 0 .3em;
+}
+
+.modal-body .table > tbody > tr > td{
+    border-width: 0;
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+}
+
+
+.radio label, .checkbox label {
+    font-weight: 400;
+    min-height: 20px;
+    margin-right: 15px;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 1px;
+}
+
+.modal-body table{
+    width:95%;
+    margin: 0 auto;
+}
+
+.modal-body input[type="file"]{
+    margin-bottom: 10px;
+}
+

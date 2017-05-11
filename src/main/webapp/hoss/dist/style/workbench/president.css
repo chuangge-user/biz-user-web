@@ -1,0 +1,113 @@
+.city-list-filter {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.select-index {
+    padding: 5px 10px;
+}
+.select-index > li {
+    /*padding: 3px 0;*/
+}
+.select-index > li > .label-block {
+    display: block;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 12px;
+}
+.select-index > li > .label-block > [type=checkbox] {
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+
+
+.city-list-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.city-list-item:hover {
+    background-color: #f1f1f1;
+}
+.city-list-item:hover .i-city-order {
+    background-position: -30px 0;
+}
+.city-item-tit {
+    margin-bottom: 5px;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: normal;
+}
+.city-item-order {
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+.city-item-count {
+    float: right;
+    color: #999;
+}
+.city-item-count > span {
+    margin-left: 1em;
+}
+.i-city-order {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1.5em;
+    width: 21px;
+    height: 30px;
+    text-align: center;
+    font: 13px/25px normal arial;
+    color: #fff;
+    background-image: url(../../image/map-aside.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.progress-group {
+    margin-bottom: 8px;
+    padding-left: 50px;
+}
+.progress-group > .progress-tit,
+.progress-group > .progress,
+.progress-group > .progress-val {
+    float: left;
+}
+.progress-group > .progress-tit {
+    width: 70px;
+}
+.progress-group > .progress {
+    width: 260px;
+}
+.progress-group > .progress-val {
+    text-indent: 1em;
+    width: 100px;
+}
+.progress-group > .progress {
+    margin-bottom: 0;
+}
+.progress-group > .progress-xs {
+    margin-top: 3px;
+    height: 12px;
+}
+.progress-group > .progress-xs > .progress-bar {
+    font-size: 10px;
+    line-height: 12px;
+    color: #333;
+}
+.progress-bar-js {
+    background-color: #f93;
+}
+.progress-bar-zc {
+    background-color: #9cf;
+}
+.progress-bar-xzzj {
+    background-color: #6cc;
+}
+.progress-bar-ydsr {
+    background-color: #93f;
+}
+
+.city-list-group a{
+    color: #666;
+}

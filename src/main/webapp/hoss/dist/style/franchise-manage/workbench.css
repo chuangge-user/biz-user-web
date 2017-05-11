@@ -1,0 +1,115 @@
+.joiner{
+    background: #cd0000;
+    color: #ffffff;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.statistics-number{
+    color: #EAAA2F;
+}
+
+.nav-tabs > li > a {
+    height:25px;
+    padding: 4px 15px;
+}
+
+.content-left{
+    width:350px;
+}
+
+.project-name{
+    width:120px;
+}
+
+.left-offset{
+    margin-left: -30px;
+    margin-top:-5px;
+}
+.project-progress-box{
+    width: 150px;
+    height: 20px;
+    border:1px solid #2DC638;
+}
+.project-progress{
+    width: 99%;
+    height: 16px;
+    position: relative;
+    left:1px;
+    top:1px;
+    background-color:#4BFF00;
+}
+.progress-text {
+    position: relative;
+    top:-15px;
+    text-align: center;
+}
+
+.count-box{
+    /*width:150px;*/
+    margin:0px 10px 0px 5px
+}
+
+.count{
+    border-bottom:3px solid;
+    position: relative;
+    width:200px;
+    top:7px;
+}
+.count-broker{
+    border-color: #6699CC;
+}
+.count-store{
+    color:#66CC33;
+}
+.count-done{
+    color:#FF9900;
+}
+
+.store-box > div{
+    margin-left:10px;
+}
+
+.progress-info{
+    /*width:100%;*/
+    height:20px;
+}
+
+.project-box {
+    padding: 10px;
+}
+.project-box:hover{
+    background: #EFF2FE;
+}
+.store-box{
+    padding:10px;
+}
+.store-box:hover{
+    background: #EFF2FE;
+}
+
+.joiner-search-box{
+    height:50px;
+}
+
+.round-list{
+    display: none;
+    font-size:0.8em;
+    font-weight:normal;
+    position: relative;
+    top:15px;
+    left:-2px;
+    z-index: 999;
+}
+
+.round-list li {
+    width:130px;
+    height:50px;
+    background: #cd0000;
+    margin:2px;
+    padding: 17px;
+}

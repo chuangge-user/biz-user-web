@@ -1,0 +1,38 @@
+<configuration>
+    <include resource="com/ly/fn/inf/rpc/config/inf-rpc-logback.xml"/>
+    <include resource="com/ly/fn/inf/daf/config/
+    "/>
+
+    <property name="LOG_DIR" value="/log/java/biz-user-web"/>
+
+    <appender name="BIZ-FNC-WEB-LOG-FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+		<filter class="com.ly.fn.inf.util.LogFilter" />
+        <file>${LOG_DIR}/biz-user-web.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/biz-user-web.%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} -
+                %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.ly.fn.inf.util.LogFilter" />
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="BIZ-FNC-WEB-LOG-FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

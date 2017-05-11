@@ -1,0 +1,67 @@
+.industry-form {
+    padding-bottom: 30px;
+}
+
+.industry-form input[type=submit] {
+    margin-right: 20px;
+}
+
+.industry-list {
+    padding: 20px;
+}
+
+.industry-list > .checkbox {
+    padding-left: 3em;
+}
+
+.industry-list > .checkbox > label {
+    display: inline-block;
+    width: 24%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.industry-list > .checkbox > label:hover {
+    background: #f5f5f5;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-top: 9px;
+}
+
+#adTypeLink .active a {
+    position: relative;
+}
+sup.warm-dot {
+    position: absolute;
+    top: 3px !important;
+    right: 3px !important;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f60;
+}
+
+.handle-form {
+    padding: 2em;
+}
+
+.search-form .form-control {
+    width: 12em;
+}
+
+.handle-form .search-line {
+    padding-bottom: 1em;
+}
+
+.handle-form .search-line .btn-success {
+    margin-right: 1em;
+}
+
+.tips {
+    padding-left: 1em;
+    color: #008000;
+}

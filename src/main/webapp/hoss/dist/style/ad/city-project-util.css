@@ -1,0 +1,32 @@
+.selected-area {
+  display: inline-block;
+  /*margin-right: -7px;*/
+    /*margin-right: 5px;*/
+}
+
+.remove-area {
+    font-size: 10px;
+    color: red;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+.city-span{
+    margin-right: 38px;
+}
+
+.area-table td{
+    padding: 10px;
+}
+
+.text-top{
+    vertical-align: top;
+}
+
+.area-name{
+    margin:2px 10px 0 0;
+}

@@ -1,0 +1,52 @@
+.form-control.e4{
+    max-width: 9em;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-daterange.input-group .input-group-addon {
+    display: inline-block;
+    margin-left: 0;
+    padding: 6px 10px;
+}
+
+.table thead > tr > th {
+    background-color: #f0f0f0;
+}
+
+.table tbody td i{
+    font-style: normal;
+    color:#999;
+}
+
+/*µ¯³ö²ã
+===========================================*/
+.modal .table tbody th{
+    text-align: right;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.modal .table tbody>tr>th,
+.modal .table tbody>tr>td,
+.modal .table tfoot>tr>td{
+    border-width: 0;
+}
+
+.modal .table tfoot>tr>td{
+    text-align: center;
+}
+
+.form-control-sm {
+    min-width: 14em;
+}
+
+.modal i{
+  font-style: normal;
+}

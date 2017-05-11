@@ -1,0 +1,127 @@
+.staff {
+    padding: 20px 30px;
+}
+
+.staff .search-line .form-control {
+    font-size: 13px;
+    max-width: 18em;
+}
+
+.staff table td dfn {
+    font-style: normal;
+    color: #BCBCBC;
+}
+
+.staff .txt-standard {
+    width: 280px;
+}
+
+.staff .table {
+    margin-top: 20px;
+    border: 1px solid #e8e8e8;
+}
+
+.staff .table th {
+    background-color: #f1f1f1;
+}
+
+.staff .table td {
+    vertical-align: top;
+}
+
+.staff .table td {
+    height: 42px;
+    padding: 5px 8px;
+}
+
+.set-role .form-control {
+    height: auto;
+    margin-top: 0
+}
+
+.set-role table th {
+    background-color: #F2F2F2;
+}
+
+.set-role .table td input:focus {
+    outline: none;
+}
+
+.reset-accout th {
+    font-weight: normal;
+    text-align: right;
+}
+
+.reset-accout input.form-control-sm {
+    width: 100%;
+}
+
+.reset-accout table > tbody > tr > th,
+.reset-accout table > tbody > tr > td {
+    vertical-align: middle;
+    border-top-width: 0;
+}
+
+.set-position p.add {
+    text-align: right;
+}
+
+
+#resetAccountModal .table > thead > tr > th,
+#resetAccountModal .table > tbody > tr > th,
+#resetAccountModal .table > tfoot > tr > th,
+#resetAccountModal .table > thead > tr > td,
+#resetAccountModal .table > tbody > tr > td,
+#resetAccountModal .table > tfoot > tr > td {
+    border-top: 0 none;
+    border-bottom: 1px solid #eee;
+    padding: 11px 8px;
+}
+
+#resetAccountModal .table > thead > tr > th,
+#resetAccountModal .table > tbody > tr > th {
+    text-align: right;
+    vertical-align: middle;
+}
+
+#resetAccountModal .form-control {
+    width: 20em;
+}
+
+/*#resetAccountModal .modal-dialog {*/
+    /*top: 50%;*/
+    /*margin-top: -182px;*/
+/*}*/
+
+#positionList tbody > tr > td > .btn-default,
+#searchResultList tbody > tr > td > .btn-default {
+    color: #666;
+}
+
+#positionList .names > span,
+#searchResultList .names > span {
+    display: block;
+    padding-top: 5px;
+    line-height: 1.1;
+}
+
+.user-name-tips {
+    font-size: 14px;
+}
+
+.checkbox-block {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+#getAllLeagueDepartmentList .companyNameListTd{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#getAllLeagueDepartmentList .companyNameListTd div.radio{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#getAllLeagueDepartmentList input[name='companyNameList']{
+    margin-top: -9px;
+}

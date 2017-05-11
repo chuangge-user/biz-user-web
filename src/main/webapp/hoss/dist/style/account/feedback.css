@@ -1,0 +1,12 @@
+.feedback .modal-body .table td textarea{
+    resize: none;
+}
+.feedback .modal-body .table>tbody>tr>td{
+    border-width: 0;
+}
+
+.description{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: #999;
+}

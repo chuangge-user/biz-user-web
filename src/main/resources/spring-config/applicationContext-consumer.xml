@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+       default-lazy-init="true">
+
+
+    <!-- 注册中心配置 -->
+    <bean id="dubboRegistryConfig" class="com.alibaba.dubbo.config.RegistryConfig">
+        <property name="address" value="${registry.url}"/>
+    </bean>
+    <!-- 应用配置 -->
+    <bean id="dubboApplicationConfig" class="com.alibaba.dubbo.config.ApplicationConfig">
+        <property name="name" value="${app_name}"/>
+    </bean>
+
+    <!-- 消费者配置 -->
+    <bean id="consumerConfig" class="com.alibaba.dubbo.config.ConsumerConfig">
+        <property name="check" value="${consume.service_check}"/>
+    </bean>
+
+    <!-- 定义使用服务的的消费者bean -->
+    <bean id="referenceBean" abstract="true" class="com.alibaba.dubbo.config.spring.ReferenceBean">
+        <property name="application" ref="dubboApplicationConfig"/>
+        <property name="registry" ref="dubboRegistryConfig"/>
+        <property name="consumer" ref="consumerConfig"/>
+        <property name="version" value="${consumer.default_version}"/>
+        <property name="retries" value="0"/>
+    </bean>
+
+
+    <bean parent="referenceBean">
+        <property name="interface" value="com.chuangge.authcenter.service.AuthUserService"/>
+        <property name="timeout" value="30000"/>
+    </bean>
+    
+</beans>

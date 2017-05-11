@@ -1,0 +1,267 @@
+
+.form-control.e4{
+     max-width: 6em;
+ }
+
+.form-control.e9{
+    max-width: 11em;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-daterange.input-group .input-group-addon {
+    display: inline-block;
+    margin-left: 0;
+    padding: 6px 10px;
+}
+
+
+.table thead > tr > th {
+    background-color: #f0f0f0;
+}
+
+.table tbody td i{
+    font-style: normal;
+    color:#999;
+}
+
+
+.invalid{
+    color: #f00;
+}
+
+/*==================================
+               进度条
+===================================*/
+
+
+.box {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.nav-project-process > li > a {
+    color: #666;
+    padding: 16px 0;
+}
+.nav-project-process > li + li {
+    margin-left: 2px;
+}
+.nav-project-process > li > a:hover, .nav-project-process > li > a:focus {
+    background-color: transparent;
+    color: #2a6496;
+}
+.nav-project-process-line {
+    background-color: #ebebeb;
+    font-size: 0;
+    height: 3px;
+    left: 81px;
+    line-height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 35px;
+    z-index: 2;
+}
+.n-p-p-l-2 {
+    width: 50%;
+}
+.n-p-p-l-3 {
+    width: 66.6667%;
+}
+.n-p-p-l-4 {
+    width: 75%;
+}
+.n-p-p-l-5 {
+    width: 80%;
+}
+.n-p-p-l-6 {
+    width: 83.3333%;
+}
+.n-p-p-l-7 {
+    width: 85.7143%;
+}
+.n-p-p-l-8 {
+    width: 87.5%;
+}
+.n-p-p-l-9 {
+    width: 88.8889%;
+}
+.n-p-p-l-10 {
+    width: 90%;
+}
+.i-process-not-start, .i-process-remind, .i-process-not-pass, .i-process-done {
+    background-image: url("../image/project-process-icon.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 30px;
+}
+.i-process-not-start {
+    background-position: 0 -30px;
+}
+.i-process-remind {
+    background-position: 0 -90px;
+}
+.i-process-not-pass {
+    background-position: 0 -60px;
+}
+.i-process-done {
+    background-position: 0 0;
+}
+.project-process {
+    margin: 0 auto;
+    position: relative;
+    height: 94px;
+    width: 643px;
+}
+.project-process > dt{
+    font-size: 14px;
+}
+h3 {
+    font-size: 16px;
+}
+.project-process a p{
+    padding-top: 6px;
+    margin-bottom: 0px;
+}
+.p1  .i1 s,
+.p2  .i1 s,
+.p3  .i1 s,
+.p4  .i1 s,
+.p4  .i2 s,
+.p4  .i2 b,
+.p6  .i1 s,
+.p7  .i1 s,
+.p7  .i2 s,
+.p8  .i1 s,
+.p8  .i2 s,
+.p8  .i3 s,
+.p9   s,
+.p10  .i1 s,
+.p10  .i2 s,
+.p10  .i3 s{
+    color: #FF6600;
+}
+
+.p1  .i1 i,
+.p2  .i1 i,
+.p4  .i1 i,
+.p4  .i2 i,
+.p5 .i2 i,
+.p6  .i1 i,
+.p7  .i1 i,
+.p7  .i2 i,
+.p8  .i1 i,
+.p8  .i2 i,
+.p8  .i3 i,
+.p9  .i1 i,
+.p9  .i2 i,
+.p9  .i3 i,
+.p9  .i4 i,
+.p10  .i1 i,
+.p10  .i2 i,
+.p10  .i3 i{
+    background-position: 0 0;
+}
+.p3 .i1 i,
+.p5 .i1 i,
+.p6 .i2 i,
+.p7 .i3 i,
+.p10 .i4 i{
+    background-position: 0 -90px;
+}
+
+.project-process > dt{
+    color: #333;
+    width: 100%;
+    background: transparent;
+    position: inherit;
+    padding:0 ;
+    height: 35px;
+}
+.project-process > dd,
+.nav-project-process,
+.nav-project-process > li{
+    padding-left: 0;
+}
+.nav-project-process li {
+    width: 160px;
+}
+.nav-project-process{
+    height: auto;
+}
+.nav-project-process > li > a {
+    margin-top: 5px;
+    padding: 0;
+}
+.project-process s{
+    text-decoration: none;
+}
+.project-process i{
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../image/project-process-icon.png);
+    background-position: 0 -60px;
+    background-repeat: no-repeat;
+}
+.nav-justified {
+    background: none;
+    position: relative;
+    z-index: 5;
+}
+
+/*
+进度条 end
+*/
+
+
+
+
+
+
+
+/* 图标 状态控制 */
+.nav-project-process i.prs_1 {
+    background-position: 0px 0px;
+}
+.nav-project-process i.prs_2 {
+    background-position: 0 -30px;
+}
+.nav-project-process i.prs_3 {
+    background-position: 0 -60px;
+}
+.nav-project-process i.prs_4 {
+    background-position: 0px -90px;
+}
+
+
+
+
+.btn-new{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 20px;
+    float: right;
+}
+.table-bordered .input-group span.glyphicon-calendar-wrap{
+    margin: 0;
+    margin-top: -4px;
+}
+
+.w29{
+    width: 29%;
+}

@@ -1,0 +1,12 @@
+.create-project,
+.p15 {
+    padding: 15px;
+}
+
+.mb-normal {
+    margin-bottom: 0 !important;
+}
+
+.input-daterange > .form-control {
+    width: 85px;
+}

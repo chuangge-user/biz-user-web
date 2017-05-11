@@ -1,0 +1,114 @@
+.new-apply-box {
+    overflow: hidden;
+    margin-top: 15px;
+}
+.new-apply-box:last-of-type {
+    margin-bottom: 100px;
+}
+.new-apply-type {
+    cursor: pointer;
+    border-bottom: 2px solid #ffd1b2;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+.new-apply-type > .i-apply-down {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.new-apply-detail {
+    padding: 25px 42px;
+}
+
+.new-apply-group {
+    float: left;
+    margin-bottom: 18px;
+    border-bottom: 1px dotted #dfdfdf;
+    padding-bottom: 18px;
+    width: 48%;
+	height:180px;
+    min-height: 180px;
+	
+}
+.paper-wrap,
+.wallet-wrap,
+.map-wrap,
+.credit-wrap,
+.mouse-wrap,
+.display-wrap {
+    float: left;
+    margin-right: 25px;
+    width: 104px;
+    height: 104px;
+    background-image: url(../../image/new-apply-group-icon.png);
+    background-repeat: no-repeat;
+}
+.paper-wrap {
+    background-color: #6da3da;
+    background-position: 23px 0;
+}
+.wallet-wrap {
+    background-color: #e6aa38;
+    background-position: 23px -110px;
+}
+.map-wrap {
+    background-color: #58b8b3;
+    background-position: 23px -225px;
+}
+.credit-wrap {
+    background-color: #fc9652;
+    background-position: 23px -335px;
+}
+.mouse-wrap {
+    background-color: #797dc4;
+    background-position: 23px -445px;
+}
+.display-wrap {
+    background-color: #84c16f;
+    background-position: 23px -555px;
+}
+.new-apply-group > .n-a-g-row {
+    margin-left: 120px;
+	overflow: hidden;
+}
+.new-apply-group > .n-a-g-row > a {
+    display: inline-block;
+    width: 48%;
+}
+.new-apply-group > .n-a-g-row > a:last-of-type {
+    margin-right: 0;
+}
+
+.new-apply-list > li {
+    float: left;
+    width: 20%;
+}
+.new-apply-group > .n-a-g-row > a,
+.new-apply-list > li > a {
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-bottom: 18px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 13px;
+    text-align: center;
+    color: #666;
+    background-color: #fff;
+}
+.new-apply-list > li > a {
+    display: block;
+}
+
+.i-apply-down {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../../image/new-apply-icon.png);
+    background-repeat: no-repeat;
+}
+.i-apply-down {
+    width: 18px;
+    height: 11px;
+    background-position: 0 -60px;
+}

@@ -1,0 +1,37 @@
+
+.tab-pane{
+    padding:0 15px;
+}
+.tab-pane table td a{
+    cursor: pointer;
+}
+
+.tab-pane .e7{
+    width:7em;
+    max-width:7em;
+}
+
+.tab-pane .search{
+    padding:0
+}
+
+.tab-pane div.row{
+    font-weight: bold;
+}
+
+
+.broker-info .modal-header{
+     border-bottom-width: 0;
+}
+.broker-info .modal-header h4{
+    display: none;
+}
+
+.modal-body .pagination-wrap{
+    padding: 0;
+}
+.pagination > li > a, .pagination > li > span{
+    padding: 5px 10px;
+}
+
+

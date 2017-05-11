@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, Tahoma, SimSun, sans-serif;
+    font-size: 14px;
+    color: #999;
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+header {
+    padding: 45px 0;
+}
+
+.banner {
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 1000px;
+    width: 100%;
+    height: 491px;
+    background: url(../../image/login-banner.jpg) no-repeat center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.login {
+    padding: 50px 0 0;
+}
+
+.rim {
+    box-shadow: 0 0 5px #f47847;
+    border-radius: 2px;
+    margin: 0 0 0 auto;
+    padding: 5px;
+    width: 322px;
+    background: url(../../image/login-form-bg.png) repeat;
+}
+
+.form {
+    border: 1px solid #e1e1e1;
+    padding: 0 25px 35px;
+    width: 270px;
+    background: #fff;
+}
+
+.form-title {
+    font-family: \5fae\8f6f\96c5\9ed1, "Microsoft YaHei", Helvetica;
+    font-weight: normal;
+    padding: 20px 0 0;
+    color: #f60;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    padding-top: 5px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+
+.form label:first-of-type {
+    padding-top: 0;
+}
+
+.form .input {
+    margin-bottom: 15px;
+    line-height:1em;
+}
+
+.i-user,
+.i-lock {
+    background: url(../../image/login-icon.png) no-repeat;
+}
+
+.i-user {
+    padding-left: 35px;
+    background-position: 7px 10px;
+}
+
+.i-lock {
+    padding-left: 35px;
+    background-position: 7px -67px;
+}
+
+.input {
+    display: block;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    width: 235px;
+    height: 42px;
+    line-height: 42px;
+    text-indent: .5em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-focus,
+.input:focus {
+    border-color: #b2b2b2;
+}
+
+.captcha:before,
+.captcha:after {
+    display: table;
+    content: " ";
+}
+
+.captcha:after {
+    clear: both;
+}
+
+.input-captcha {
+    float: left;
+    width: 105px;
+}
+
+.update-captcha {
+    display: block;
+    float: right;
+    width: 158px;
+    height: 46px;
+    color: #f60;
+    text-decoration: none;
+}
+
+.update-captcha img {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    max-width: 100px;
+    max-height: 42px;
+    width: 100px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.update-captcha span {
+    display: inline-block;
+    width: 4em;
+    height: 46px;
+    line-height: 1.5;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.error {
+    border-color: #f60 !important;
+}
+
+.error-message {
+    border-bottom: 1px dotted #f00;
+    color: #f00;
+    font-size: 15px;
+    line-height: 2.2;
+    height: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    background: #ffc;
+    visibility: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.submit {
+    display: block;
+    margin-top: 20px;
+    border: 0 none;
+    border-radius: 3px;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-family: \5fae\8f6f\96c5\9ed1, "Microsoft YaHei", Helvetica;
+    text-align: center;
+    color: #fff;
+    background-color: #f60;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.disabled {
+    background-color: #ccc;
+}
+
+footer {
+    padding: 30px 0 40px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #999;
+    line-height: 2;
+    text-align: center;
+}
+
+.placeholder {
+    font-weight: normal;
+    color: #999;
+}
+
+:-moz-placeholder {
+    font-weight: normal;
+    color: #999;
+}
+
+::-moz-placeholder {
+    font-weight: normal;
+    color: #999;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    font-weight: normal;
+    color: #999;
+}
+
+::-webkit-input-placeholder {
+    font-weight: normal;
+    color: #999;
+}
+
+/* system message
+   ========================================== */
+.system-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2147483647;
+    max-width: 50%;
+    box-shadow: 0 0 15px #999;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.system-message h4 {
+    margin-top: 0;
+    color: inherit;
+    font-weight: bold;
+}
+.system-message .system-message-link {
+    font-weight: bold;
+}
+.system-message > p,
+.system-message > ul {
+    margin-bottom: 0;
+}
+.system-message > p + p {
+    margin-top: 5px;
+}
+.system-message-dismissable,
+.system-message-dismissible {
+    padding-right: 35px;
+}
+.system-message-dismissable .close,
+.system-message-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+}
+.system-message-done {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.system-message-done hr {
+    border-top-color: #c9e2b3;
+}
+.system-message-done .system-message-link {
+    color: #2b542c;
+}
+.system-message-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.system-message-info hr {
+    border-top-color: #a6e1ec;
+}
+.system-message-info .system-message-link {
+    color: #245269;
+}
+.system-message-alert {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.system-message-alert hr {
+    border-top-color: #f7e1b5;
+}
+.system-message-alert .system-message-link {
+    color: #66512c;
+}
+.system-message-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.system-message-error hr {
+    border-top-color: #e4b9c0;
+}
+.system-message-error .system-message-link {
+    color: #843534;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+}
+
+.yahei {
+    font-family: \5fae\8f6f\96c5\9ed1, "Microsoft YaHei", Helvetica;
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+         -o-transition: opacity .15s linear;
+            transition: opacity .15s linear;
+}
+.fade.in {
+    opacity: 1;
+}

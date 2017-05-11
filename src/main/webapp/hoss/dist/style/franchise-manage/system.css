@@ -1,0 +1,13 @@
+.bottom-line{
+    border-bottom:2px dashed #c3c3c3;
+    padding: 5px;
+}
+
+[class*=glyphicon-asterisk]{
+    color:#ff0000;
+    margin:0px 5px;
+}
+.status-radio{
+    position: relative;
+    top:3px;
+}

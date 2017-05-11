@@ -1,0 +1,158 @@
+.input-daterange > .form-control {
+    width: 102px;
+}
+
+.input-daterange {
+    margin-right: 5px;
+}
+
+.input-group-addon {
+    width: auto;
+    line-height: inherit;
+}
+
+.search-line .datepicker {
+    padding: 0
+}
+
+.datepicker span {
+    padding: 4px 5px 0;
+    margin-left: 0;
+    background: none;
+    border-width: 0
+}
+
+.datepicker input.form-control {
+    margin-right: 0
+}
+
+
+.input-group .form-control {
+    float: none;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.input-daterange.input-group .input-group-addon{
+    padding: 6px 10px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.form-horizontal .control-label{
+    font-weight: normal;
+    margin-right: 1em;
+}
+
+.search-line ~ .search-line {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#duibi .checkbox-wrap {
+    margin-bottom: 0;
+}
+.table-b1 {
+    padding: 0 10px 10px 10px;
+    border: 1px solid #e8e8e8;
+}
+
+.table-b1-th th {
+    width: 10em;
+    text-align: right;
+}
+
+
+
+.a-r,
+.table > caption.a-r {
+    text-align: right;
+}
+
+.table > caption.a-r {
+    padding: 5px;
+}
+
+.c-normal,
+.table .c-normal {
+    padding: 0;
+}
+
+.count-tips {
+    margin: 0;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 18px;
+}
+#advon,
+#advstop {
+    padding: 0 5px;
+}
+
+#advon {
+    color: #008000;
+}
+
+#advstop {
+    color: #808080;
+}
+
+#reportTypeForm .search-line > label {
+    margin-right: 10px;
+}
+
+#reportTypeForm .search-line > label > input[type=radio] {
+    margin-right: 5px;
+}
+
+.echarts-line {
+    width: 100%;
+    height: 400px;
+}
+
+.nav-pills li {
+    position: relative;
+}
+
+.nav-pills a {
+    padding: 10px 20px !important;
+    line-height: 1.42857 !important;
+    background-color: #eee;
+}
+
+.nav-pills .close {
+    position: absolute;
+    top: 0;
+    right: 3px;
+}
+
+.table-tf-list {
+    padding-bottom: 20px;
+}
+
+.table-tf-list input[type=checkbox] {
+    margin-right: 1em;
+}
+
+.checkbox-wrap {
+    line-height: 2;
+    height: 2em;
+}
+
+#activity_tab {
+    background-color: #f7f7f7;
+}

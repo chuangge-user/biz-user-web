@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>ECharts</title>
+<!-- 来自百度CDN -->
+<script src="http://s1.bdstatic.com/r/www/cache/ecom/esl/1-6-10/esl.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="height:600px;width:800px;border: 1px solid #ccc;"></div>
+<!--script type="text/javascript">
+        // 路径配置
+        require.config({
+            paths:{ 
+                'echarts' : 'http://echarts.baidu.com/build/echarts',
+				'echarts/config' : 'http://echarts.baidu.com/src/config',
+				'echarts/chart/map' : 'http://echarts.baidu.com/doc/example/www/js/echarts-map'
+            }
+        });
+        // 使用
+        require(
+            [
+                'echarts',
+				'echarts/config',
+                'echarts/chart/map'
+            ],
+            function (ec, config, map) {
+				option = {
+					title : {
+						text: '好屋中国',
+						subtext: '房  产  全  民  营  销  平  台',
+						sublink: 'http://www.haowu.com',
+						x:'center',
+						textStyle: {
+						  fontSize: '36',
+						  color: '#f50'
+						},
+						subtextStyle: {
+						  fontSize: '16'
+						}
+					},
+					tooltip : {
+						trigger: 'item',
+						formatter: "{b}"
+					},
+					series : [
+						{
+							type: 'map',
+							mapType: 'china',
+							hoverable: false,
+							roam:true,
+							symbolSize: 10,
+							itemStyle: {
+								normal: {
+									borderWidth:1,
+									borderColor:'#fff',
+									color: '#f50',
+									label: {
+										show: true,
+										textStyle: {
+											color: '#ddd'
+										}
+									}
+								}
+							},
+							data:[],
+							markPoint : {
+								symbol: 'circle',
+								symbolSize: 4,
+								itemStyle : {
+									normal: {
+										color: '#fff',
+										borderColor: '#666',
+										borderWidth: 1,
+										label: {
+											show: false
+										}
+									},
+									emphasis: {
+										borderColor: '#333',
+										borderWidth: 3,
+										label: {
+											show: false
+										}
+									}
+								},
+								data : [
+									{name: "平顶山", value: "平顶山", id: 111},
+									{name: "邢台", value: "邢台", id: 111},
+									{name: "德州", value: "德州", id: 111},
+									{name: "济宁", value: "济宁", id: 111},
+									{name: "荆州", value: "荆州", id: 111},
+									{name: "宜昌", value: "宜昌", id: 111},
+									{name: "义乌", value: "义乌", id: 111},
+									{name: "丽水", value: "丽水", id: 111},
+									{name: "洛阳", value: "洛阳", id: 111},
+									{name: "秦皇岛", value: "秦皇岛", id: 111},
+									{name: "株洲", value: "株洲", id: 111},
+									{name: "石家庄", value: "石家庄", id: 111},
+									{name: "莱芜", value: "莱芜", id: 111},
+									{name: "常德", value: "常德", id: 111},
+									{name: "保定", value: "保定", id: 111},
+									{name: "湘潭", value: "湘潭", id: 111},
+									{name: "金华", value: "金华", id: 111},
+									{name: "岳阳", value: "岳阳", id: 111},
+									{name: "长沙", value: "长沙", id: 111},
+									{name: "衢州", value: "衢州", id: 111},
+									{name: "廊坊", value: "廊坊", id: 111},
+									{name: "菏泽", value: "菏泽", id: 111},
+									{name: "合肥", value: "合肥", id: 111},
+									{name: "武汉", value: "武汉", id: 111},
+									{name: "大庆", value: "大庆", id: 111}
+								]
+							},
+							geoCoord: {
+								"平顶山":[113.29,33.75],
+								"邢台":[114.48,37.05],
+								"德州":[116.29,37.45],
+								"济宁":[116.59,35.38],
+								"荆州":[112.239741,30.335165],
+								"宜昌":[111.3,30.7],
+								"义乌":[120.06,29.32],
+								"丽水":[119.92,28.45],
+								"洛阳":[112.44,34.7],
+								"秦皇岛":[119.57,39.95],
+								"株洲":[113.16,27.83],
+								"石家庄":[114.48,38.03],
+								"莱芜":[117.67,36.19],
+								"常德":[111.69,29.05],
+								"保定":[115.48,38.85],
+								"湘潭":[112.91,27.87],
+								"金华":[119.64,29.12],
+								"岳阳":[113.09,29.37],
+								"长沙":[113,28.21],
+								"衢州":[118.88,28.97],
+								"廊坊":[116.7,39.53],
+								"菏泽":[115.480656,35.23375],
+								"合肥":[117.27,31.86],
+								"武汉":[114.31,30.52],
+								"大庆":[125.03,46.58]
+							}
+						}
+					]
+				};
+				
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('main')).setOption(option).on(config.EVENT.CLICK, function(param) {
+					window.location.href = "http://www.baidu.com/?id="+param.data.id;
+				});
+
+            }
+        );
+    </script-->
+
+
+
+    <script id="seajsnode" src="../../lib/sea/2.3.0/sea.js"></script>
+    <script src="../../lib/sea/config.js"></script>
+    <script>
+        seajs.use(['echarts/echarts'])
+    </script>
+</body>

@@ -1,0 +1,4 @@
+.break-all td div{
+    /*width:45px;*/
+    word-break: break-all;
+}

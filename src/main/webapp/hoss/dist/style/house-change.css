@@ -1,0 +1,30 @@
+/* 楼盘名称 更换楼盘
+   ========================================== */
+.house {
+    margin-top: 15px;
+}
+.house-name,
+.house-change,
+.house-countdown {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.house-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.house-change {
+    font-size: 12px;
+}
+.house-countdown {
+
+}
+.house-countdown > strong {
+    padding: 0 3px;
+    font-weight: bold;
+    color: #f60;
+}

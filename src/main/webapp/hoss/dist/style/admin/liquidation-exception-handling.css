@@ -1,0 +1,121 @@
+/* ��ĿͶ�� */
+.putPro .success {
+    background-color: #dff0d8;
+}
+
+.putPro .imgwrap {
+    max-width: 1068px;
+}
+
+.putPro .imgwrap .imglist {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.putPro .imglist dt {
+    max-width: 210px;
+    border: 4px solid #fff;
+    transition: border 0.3s ease 0s;
+}
+
+.putPro .imglist dt:hover {
+    border: 4px solid #f60;
+    cursor: pointer;
+}
+
+.putPro .imglist dt.active {
+    border: 4px solid #f60;
+}
+
+.putPro .imglist dd {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.putPro .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.putPro label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.sell .medium {
+    max-width: 120px;
+}
+.sell .normal {
+    max-width: 175px;
+    display: inline-block;
+}
+.sell .x-normal {
+    max-width: 160px;
+    width: 160px;
+    display: inline-block;
+}
+.sell .nav-tabs {
+    height: 39px;
+    margin-bottom: 10px;
+}
+.subtitle {
+    color: #999;
+    display: inline-block;
+    padding-left: 15px;
+}
+/*����*/
+.modal.in .historyBox {
+    margin: 300px auto 0;
+}
+/*Ӷ���������ҳ��*/
+.setFormBox {
+    width: 500px;
+    min-height: 550px;
+    margin: 50px 0 0 200px;
+}
+.table.bor-no td {
+    border:none;
+    vertical-align: middle;
+}
+/*������*/
+.table.tab-800 {
+    width: 800px;
+}
+/*������� ��ʾ��ɫ*/
+.dataExpired {
+    color: #999999;
+}
+span.glyphicon{ padding-right: 20px;}
+span.form-control-feedback{
+    top: -5px;
+    right:5px;
+    width:12px;
+    height:12px;
+    line-height: 12px;
+    text-align: center;
+    color:red;
+    cursor: pointer;
+}
+.uploadimg {width: 250px; margin-right: 10px;}
+.uploadimg dd{width: 250px;}
+.uploadimg dt{width: 250px; display: inline-block; position: relative; }
+.uploadimg .remove{ width: 16px; height: 16px; position: absolute; right: -6px; text-align: center; top:-6px; background-color: red; color: #fff; border-radius: 5px; cursor: pointer;}
+.uploadimg .remove:hover{ background: #f60;}
+
+.type-input{
+    max-width: 95px;
+}
+.datepicker .form-control {
+    width: 100px !important;
+}
+.pagination {
+    margin: 0;
+}
+.pagination-count {
+    padding-top: 7px;
+}
+.form-inline .w-830 {
+    width: 830px;
+}
+.table td.bor-btm {
+    border-bottom: 1px solid #ccc;
+}

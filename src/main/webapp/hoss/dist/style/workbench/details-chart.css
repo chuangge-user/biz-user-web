@@ -1,0 +1,135 @@
+/* 收入、支出、渠道明细图
+   ========================================== */
+.details-chart {
+    margin-top: 15px;
+}
+.details-chart > .col-md-4 {
+    padding: 0;
+}
+.details-chart > .col-md-4 > .box {
+    margin-right: 15px;
+}
+.details-chart > .col-md-4:last-of-type > .box {
+    margin-right: 0;
+}
+.details-chart-item > dd {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.details-chart-group,
+.details-chart-sr {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+.details-chart-group a,
+.details-chart-sr a {
+    display: block;
+    padding: 5px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.details-chart-sr a {
+    padding: 8px 0;
+}
+.details-chart-group a:hover,
+.details-chart-sr a:hover {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .08);
+}
+.details-chart-group > li {
+    /*padding: 5px 0;*/
+}
+.details-chart-sr {
+    padding: 0 30px;
+}
+.details-chart-sr:first-of-type {
+    margin-bottom: 9px;
+    background-color: #ff8c40;
+}
+.details-chart-sr:last-of-type {
+    background-color: #509ae4;
+}
+.details-chart-zc {
+    background-color: #72c680;
+}
+.details-chart-qd {
+    background-color: #eaaa2f;
+}
+.details-chart-sr {
+
+}
+.details-chart-zc > li:first-of-type {
+    border-bottom: 1px solid #96d5a1;
+}
+.details-chart-qd > li:first-of-type {
+    border-bottom: 1px solid #efc065;
+}
+.i-d-c-display,
+.i-d-c-culture,
+.i-d-c-ribbon,
+.i-d-c-credit,
+.i-d-c-graph,
+.i-d-c-star {
+    display: inline-block;
+    width: 33px;
+    height: 31px;
+    vertical-align: middle;
+    background-image: url(../../image/details-chart-icon.png);
+    background-repeat: no-repeat;
+}
+.i-d-c-culture {
+    background-position: 0 -230px;
+}
+.i-d-c-display {
+    background-position: 0 -190px;
+}
+.i-d-c-ribbon {
+    background-position: 0 -98px;
+}
+.i-d-c-credit {
+    background-position: 0 -140px;
+}
+.i-d-c-graph {
+    background-position: 0 -10px;
+}
+.i-d-c-star {
+    background-position: 0 -52px;
+}
+.d-c-g-txt,
+.d-c-g-num {
+    vertical-align: middle;
+}
+.d-c-g-txt {
+    display: inline-block;
+    padding-left: 1em;
+    width: 8em;
+}
+.d-c-g-num {
+    font-size: 120%;
+    font-weight: bold;
+}
+.progress-wrap {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
+.progress-title,
+.progress-info {
+    line-height: 2;
+}
+.progress-info {
+    margin-top: -2em;
+    font-weight: bold;
+    text-align: center;
+}
+.progress-wrap > .progress {
+    margin-bottom: 0;
+    height: 10px;
+    background-color: #e4e4e4;
+}
+.progress-wrap > .progress > .progress-bar {
+    background-color: #4eb9b3;
+}

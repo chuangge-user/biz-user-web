@@ -1,0 +1,111 @@
+.table td > label {
+    display: block;
+}
+
+.search-dsp-associate {
+    padding-bottom: 15px;
+}
+
+#searchDspResultList th {
+    line-height: 2;
+}
+
+#searchDspResultList th,
+#searchDspResultList td {
+    padding: 3px 5px;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+
+
+.view-dsp-list dd,
+.edit-dsp-list dd {
+    width: 49%;
+    display: inline-block;
+}
+.edit-dsp-list,
+.view-dsp-list {
+    /*padding: 20px;*/
+}
+
+.edit-dsp-list > .checkbox,
+.view-dsp-list > .checkbox {
+    padding-left: 3em;
+}
+
+.edit-dsp-list label,
+.view-dsp-list label {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.edit-dsp-list  label:hover,
+.view-dsp-list  label:hover {
+    background: #f5f5f5;
+}
+.view-dsp-list label > input[type="radio"],
+.edit-dsp-list label > input[type="radio"],
+.view-dsp-list label > input[type="checkbox"],
+.edit-dsp-list label > input[type="checkbox"] {
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-top: 9px;
+}
+
+
+#viewDspModal-4 textarea {
+    resize: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.remind {
+    color:red;
+}
+.the_select_area {
+    margin-bottom: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+
+.the_select_area s,.td_select_area s, .upload_files s{
+    text-decoration: none;
+    padding-right: 16px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+[class^="icon-"],[class*=" icon-"]{display:inline-block;
+    width:14px;height:14px;margin-top:1px;*margin-right:.3em;line-height:14px;vertical-align:text-top;
+    background-image:url("../../../image/glyphicons-halflings.png");
+    background-position:14px 14px;background-repeat:no-repeat;
+}
+
+.icon-remove {
+    background-position: -312px 0;
+}
+.btn-add-city {
+    margin-top: 5px;
+}
+
+.select_project {
+    margin-top: 5px;
+    display: none;
+}
+.btn-mm {
+    padding:5px 20px;
+    margin:0px 10px;
+}
+
+.the_select_area s {
+    word-break: break-all;
+    word-wrap: break-word;
+    display: inline-block;
+}

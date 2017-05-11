@@ -1,0 +1,56 @@
+.table-list thead tr > th,
+.table-list thead tr > td {
+    border-top-color: #ddd;
+    border-bottom-width: 0;
+}
+
+.tab-content{
+    margin-top: -1px;
+}
+
+.tab-content .table > tbody > tr > td {
+    padding: 20px;
+}
+
+.table-list caption div.row{
+    line-height: 2.0;
+    padding-top: 10px;
+}
+
+.table-list tbody>tr>td{
+    vertical-align: middle;
+}
+.table-list tbody td div.row{
+    position:relative;bottom:-3px;
+}
+.table-list tbody td div label{
+    font-weight: normal;
+    position: relative;
+    top: -2px;left:4px;
+    margin-right: .6em;
+    margin-bottom: 0;
+}
+
+.e20{
+    width:20em;
+    max-width: 20em;
+    position: relative;
+    top: -3px;
+}
+.e100{
+    width:100%;
+    max-width: 100%;
+}
+
+.nav-table-tabs{
+    overflow: hidden;
+}
+
+.btn-groups {
+    padding: 25px 5px;
+}
+
+.btn-groups div button {
+    margin: 0 10px;
+}
+

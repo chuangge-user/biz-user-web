@@ -1,0 +1,35 @@
+.spmForm {
+    padding-bottom: 20px;
+}
+
+.spmName {
+    width: 30em;
+}
+
+#selectedCheckbox {
+    margin-left: 1em;
+}
+
+
+
+.table-user {
+    cursor: pointer;
+    line-height: 1.8;
+}
+
+.i-del {
+    background-image: url(../../image/icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.i-del {
+    background-position: 3px -197px;
+    height: 14px;
+    margin-left: 5px;
+    margin-top: -3px;
+    width: 14px;
+}
+.table-user:hover .i-del {
+    background-position: 0 -222px;
+}

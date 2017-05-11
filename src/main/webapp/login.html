@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>登录HOSS系统</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="stylesheet" href="asset/styles/normalize.css">
+    <link rel="stylesheet" href="asset/styles/login.css">
+
+    <script id="seajsnode" src="lib/sea/2.2.1/sea.js"></script>
+    <script src="lib/sea/config.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrap"><img src="asset/images/login-logo.gif" alt="好屋中国——HOSS系统"></div>
+    </header>
+
+
+
+    <div class="wrap login">
+        <div class="rim">
+            <form id="loginForm" class="form" method="post" action="/">
+                <div class="error-message"></div>
+
+                <label for="username">账号：</label>
+                <input id="username" class="input i-user" type="text" name="username" maxlength="50" autocomplete="off" placeholder="请输入账号">
+
+                <label for="password">密码：</label>
+                <input id="password" class="input i-lock" type="password" name="password" maxlength="30" autocomplete="off" placeholder="请输入密码">
+
+                <label for="captcha">验证码：</label>
+                <div class="captcha">
+                    <input id="captcha" class="input input-captcha" type="text" name="code" maxlength="5" autocomplete="off" placeholder="请输入验证码">
+                    <a id="updateCaptcha" class="update-captcha" href="javascript:;">
+                        <img style="visibility: hidden">
+                        <span>看不清？换一张</span>
+                    </a>
+                </div>
+
+                <input class="submit hand" type="submit" value="登&nbsp;&nbsp;录">
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p class="wrap copyright">&copy;&nbsp;产品由好屋中国开发&nbsp;&nbsp;&nbsp;服务热线：400-180-8116</p>
+    </footer>
+
+
+
+    <script>seajs.use('scripts/login');</script>
+</body>
+</html>

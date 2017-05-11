@@ -1,0 +1,157 @@
+.v-top th,
+.v-top td {
+    vertical-align: top !important;
+}
+
+.table-1 input[type=text] {
+    width: 22em;
+}
+
+.table-2 input[type=text] {
+    width: 10em;
+}
+
+.table-1 textarea,
+.table-3 textarea {
+    width: 100%;
+    height: 12em;
+}
+
+.input-theme {
+    width: 60% !important;
+}
+
+.label-title {
+    width: 100px;
+    text-align: right;
+}
+
+.table-wrap-2 .table-2 .label-title {
+    width: 100%;
+}
+
+.money {
+
+}
+
+.table-user {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.city-list {
+    padding-bottom: 1em;
+}
+.table-1 [type="file"],
+.table-2 [type="file"],
+.table-3 [type="file"] {
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    display: block;
+    font-size: 12px;
+    height: 35px;
+    margin-right: 5px;
+    margin-bottom: .5em;
+    padding: 0 8px;
+    vertical-align: middle;
+    width: 22em;
+}
+
+.btn-default-sub:hover,
+.btn-default-sub {
+    color: #fff;
+    border: 0 none;
+    padding: 10px 25px !important;
+    background: none repeat scroll 0 0 #ff6a00;
+}
+
+.btn-default-res {
+    color: #666;
+    padding: 8px 23px !important;
+}
+
+.btn-default-res,
+.btn-default-sub {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 3em;
+}
+
+
+.table-company-info th {
+    text-align: right;
+    font-weight: normal;
+}
+
+.t-r {
+    text-align: right;
+}
+
+.count .money {
+    padding: 0 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.count-item {
+    display: inline-block;
+    margin-right: 3em;
+}
+
+.date-wrap, .date-wrap > input {
+    min-width: 135px !important;
+    width: 135px !important;
+}
+
+.box.table-wrap-2 {
+    margin-top: 15px;
+}
+
+.table-2 .form-control {
+    display: inline-block;
+}
+
+.label-title {
+    vertical-align: middle;
+}
+
+.label-title,
+td label {
+    margin-bottom: 0;
+}
+
+#datepicker > .form-control,
+#datepicker > span {
+    display: inline-block;
+}
+
+#datepicker > .form-control {
+    width: 145px;
+    text-align: center;
+}
+
+#city_form .form-control {
+    max-width: 12em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.i-del {
+    background-image: url(../../image/icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.i-del {
+    background-position: 3px -197px;
+    height: 14px;
+    margin-left: 5px;
+    margin-top: -3px;
+    width: 14px;
+}
+.table-user {
+    cursor: pointer;
+}
+.table-user:hover .i-del {
+    background-position: 0 -222px;
+}

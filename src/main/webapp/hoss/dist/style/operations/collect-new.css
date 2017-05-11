@@ -1,0 +1,44 @@
+.put-target{
+    cursor: pointer;
+}
+.put-target input{
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+.selected-area{
+    display: inline;
+    margin-right: -7px;
+}
+
+.remove-area{
+    font-size: 10px;
+    color: red;
+    position: relative;
+    top:-5px;
+    left:-5px;
+    cursor: pointer;
+}
+
+.add-area{
+    font-size:10px;
+    color: #008000;
+    cursor: pointer;
+}
+
+.message-info{
+    margin-top:-100px;
+}
+
+.add-table {
+    width:95%;
+}
+
+.btn-box{
+    margin-right: 11%;
+}
+
+.width80{
+    width:120px;
+}

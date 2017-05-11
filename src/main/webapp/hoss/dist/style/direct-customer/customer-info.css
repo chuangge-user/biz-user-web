@@ -1,0 +1,27 @@
+.list-table caption h4 {
+    background-color: #dfdfdf;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+ .form-control.e6 {
+    max-width: 6em;
+    min-width: 6em;
+}
+
+.form-control.e11 {
+    max-width: 9em;
+    min-width: 9em;
+}
+
+select.form-control{
+    width: auto;
+    display: inline-block;
+}
+button.add {
+    position: relative;
+    top: -2px;
+}

@@ -1,0 +1,62 @@
+# Ns
+nsHome=${user.home}/.ns_config
+
+
+#应用名称
+app_name=biz-login-web
+
+################    dubbo   ###################
+environment=integrate
+#应用名称
+app_name=hoss-login-srv
+
+##############  注册中心配置 开始  ##############
+#注册中心的地址
+#registry.url=zookeeper://172.16.10.97:2181?backup=172.16.10.105:2181,172.16.10.71:2181
+registry.url=zookeeper://10.100.157.28:2181
+#############  注册中心配置 结束   ##############
+
+
+#############  协议相关配置 开始   ##############
+#端口
+protocol.port=20886
+#############  协议相关配置 结束   ##############
+
+
+
+
+#############  消费者相关配置 开始  ##############
+
+#检查服务提供者是否存在
+consume.service_check=false
+#消费者默认版本
+consumer.default_version=1.0.1_gn
+
+#############  消费者相关配置 结束  ##############
+
+##############  生产者相关配置 开始  ##############
+
+#生产者默认版本号
+provider.default_version=1.0.1_gn
+#生成者超时时间
+provider.timeout=2000
+
+##############  生产者相关配置 结束  ##############
+
+
+#############    redis   #########################################################
+
+redis.poolConfig.maxIdle=300000
+redis.poolConfig.maxActive=1000
+redis.poolConfig.maxWait=500
+redis.poolConfig.testOnBorrow=true
+
+<!-- JedisConnectionFactory -->
+redis.database=7
+redis.hostName=10.100.157.28
+redis.password=jfdev123
+redis.port=26379
+redis.timeout=10000
+redis.usePool=true
+redis.shardInfo=10.100.157.28
+redis.convertPipelineAndTxResults=true

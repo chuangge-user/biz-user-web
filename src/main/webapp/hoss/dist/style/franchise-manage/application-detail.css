@@ -1,0 +1,41 @@
+.text_right {
+    text-align: right;
+}
+.remind {
+    color:red;
+}
+.the_select_area {
+    margin-bottom: 10px;
+}
+
+.the_select_area s,.td_select_area s, .upload_files s{
+    text-decoration: none;
+    padding-right: 16px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+[class^="icon-"],[class*=" icon-"]{display:inline-block;
+    width:14px;height:14px;margin-top:1px;*margin-right:.3em;line-height:14px;vertical-align:text-top;
+    background-image:url("../../../image/glyphicons-halflings.png");
+    background-position:14px 14px;background-repeat:no-repeat;
+}
+
+.icon-remove {
+    background-position: -312px 0;
+}
+.btn-add-city {
+    margin-top: 5px;
+}
+
+.select_project {
+    margin-top: 5px;
+    display: none;
+}
+.btn-mm {
+    padding:5px 20px;
+    margin:0px 10px;
+}
+.table-title{
+    width: 100px;
+}

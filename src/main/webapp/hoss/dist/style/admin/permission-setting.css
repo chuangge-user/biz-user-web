@@ -1,0 +1,28 @@
+.role-setting .submenu dl dd a{
+    padding:0 25px 0 42px;
+}
+
+.role-title {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    height: 50px;
+    line-height: 50px;
+}
+
+.article > .role-title {
+    padding-right: 15px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.subbox > .aside {
+    padding: 0;
+}
+
+.article ul.ztree{
+    padding:15px 15px;
+}

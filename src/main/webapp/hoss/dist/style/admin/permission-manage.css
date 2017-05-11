@@ -1,0 +1,44 @@
+.subbox > .article {
+    min-height: 540px;
+}
+
+
+.menu-manage .table > tbody > tr > th,
+.menu-manage .table > tbody > tr > td {
+    border-width: 0;
+    vertical-align: middle;
+}
+
+.menu-manage table th {
+    text-align: right;
+    font-weight: normal;
+}
+
+.menu-manage .table > tbody > tr:hover > th,
+.menu-manage .table > tbody > tr:hover > td {
+    background-color: #fff;
+}
+.form-control {
+    display: inline-block;
+    max-width: 22em;
+}
+
+.menu-manage table em {
+    display: inline-block;
+    font-style: normal;
+    color: #f00;
+    padding-left: .2em;
+}
+
+.article.menu-manage > table td.search-line {
+    text-align: left
+}
+
+.subbox > .article.menu-manage > table td.search-line input {
+    width: auto;
+    margin-right: 1.2em;
+}
+
+.p15 {
+    padding: 15px;
+}

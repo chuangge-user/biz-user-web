@@ -1,0 +1,256 @@
+<!-- 警告：这里是模板，并非 HTML 页面 -->
+<!-- 详情模板 -->
+<script id="auditDetailInfoTemplate" type="text/html">
+    <% var payTxt = {'pos': 'POS', 'cash': '现金', 'poswithcash': '现金+POS','multipos':'POS多次'}; %>
+    <% var filingType = {'linking': '报备中', 'linked_reject': '报备失败', 'linked': '已报备'}; %>
+    <% var staTxt = {'buy_unmake': '未确认', 'buy_make': '已确认', 'buy_posfailure': '自动确认失败'}; %>
+    <tr class="b-line">
+        <th>类型：</th>
+        <td><%= data.way %></td>
+    </tr>
+    <tr class="b-line">
+        <th>客户：</th>
+        <td><%= data.clientName %>&nbsp;&nbsp;&nbsp;<%= data.clientPhone %></td>
+    </tr>
+    <tr class="b-line">
+        <th>项目：</th>
+        <td><%= data.projectTitle %></td>
+    </tr>
+    <tr class="b-line">
+        <th>推荐人：</th>
+        <td><% if(data.sourceWay != 'nature'){ %> <%= data.brokerNmae %> （<%= data.brokerPhone %>）<% } %></td>
+    </tr>
+    <tr><td colspan="2"></td></tr>
+    <tr><td colspan="2"></td></tr>
+    <tr>
+        <th>
+            <strong>预约</strong>
+            <em><%= data.appointTime %></em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td><table class="audit-table table-hover"><tr><th>预约时间</th><td><%= data.appointTime || '无预约时间' %></td></tr></table></td>
+    </tr>
+    <tr>
+        <th>
+            <strong>报备</strong>
+            <em>
+                <% if(data.filingStatus == 'linking'){ %><%= data.filingTime %><% } %>
+                <% if(data.filingStatus == 'linked'){ %><%= data.makeFiledTime %><% } %>
+            </em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td>
+            <table class="audit-table table-hover">
+            <tr>
+                <th>报备状态</th>
+                <td><% if(data.way == '自然来人'){ %>无需报备<% }else{ %><%= filingType[data.filingStatus] %><% } %></td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <strong>到访</strong>
+            <em><%= data.visitedDate %></em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td>
+            <table class="audit-table table-hover">
+                <tr>
+                    <th>操作人员</th>
+                    <td><%= data.visitedUserName %>&nbsp;&nbsp;&nbsp;<%= '（' + (data.visitedName || '无') + '）' %></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <strong>认筹</strong>
+            <em><%= data.buyDate %></em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td>
+            <table class="audit-table table-hover">
+                <tr>
+                    <th>操作人员</th>
+                    <td colspan="3"><%= data.buyUserName %>&nbsp;&nbsp;&nbsp;<%= '（' + (data.buyName || '无') + '）' %></td>
+                </tr>
+                <tr>
+                    <th>下定金额</th>
+                    <td colspan="3"><%= formatNumber(data.buyAmount,2) %></td>
+                </tr>
+                <tr>
+                    <th>付款方式</th>
+                    <td colspan="3"><%= payTxt[data.buyType] %></td>
+                </tr>
+                <tr>
+                    <th>优惠券</th>
+                    <td colspan="3"><%= data.couponNumber %></td>
+                </tr>
+                <tr>
+                    <th>优惠券金额</th>
+                    <td colspan="3"><%= formatNumber(data.couponAmount,2) %></td>
+                </tr>
+                <tr>
+                    <th>优惠券主题</th>
+                    <td colspan="3"><%= data.couponTitle %></td>
+                </tr>
+                <tr>
+                    <th>团购合同号</th>
+                    <td colspan="3"><%= data.buyContractno %></td>
+                </tr>
+                <tr>
+                    <th>团购收据号</th>
+                    <td colspan="3"><%= data.buyGroupInvoiceNo %></td>
+                </tr>
+                <tr>
+                    <th>团购日期</th>
+                    <td colspan="3"><%= data.buyContractTime %></td>
+                </tr>
+                <tr>
+                    <th>附件</th>
+                    <td colspan="3">
+                        <% if (data.attachmentContactId) { %>
+                        <a class="audit-adjunct" href="<%= _apiHost_ %>/hoss/sys/fileDownload/download.do?id=<%= data.attachmentContactId %>" target="_blank">团购合同照片.jpg</a>
+                        <% } %>
+                        <% if (data.attachmentRececiveId) { %>
+                        <a class="audit-adjunct" href="<%= _apiHost_ %>/hoss/sys/fileDownload/download.do?id=<%= data.attachmentRececiveId %>" target="_blank">收据照片.jpg</a>
+                        <% } %>
+                        <% if (data.attachmentCardId) { %>
+                        <a class="audit-adjunct" href="<%= _apiHost_ %>/hoss/sys/fileDownload/download.do?id=<%= data.attachmentCardId %>" target="_blank">身份证复印件照片.jpg</a>
+                        <% } %>
+                        <% if (data.pospicId) {%>
+                        <a class="audit-adjunct" href="<%= _apiHost_ %>/hoss/sys/fileDownload/download.do?id=<%= data.pospicId %>" target="_blank">POS小票.jpg</a>
+                        <% } %>
+                    </td>
+                </tr>
+                <% if(data.clientGroupbuyAmountRecords && data.clientGroupbuyAmountRecords.length > 0){ %>
+                <tr>
+                    <th><b>确认状态：</b></th>
+                    <td colspan="3"></td>
+                </tr>
+                <% } %>
+                <% $each(data.clientGroupbuyAmountRecords, function(item, i){ %>
+                    <% if(item.payType == 'pos'){ %>
+                    <tr>
+                        <td>POS参考号：<%= item.poseNo%></td>
+                        <td>金额：<%= item.invoiceAmount%></td>
+                        <td>状态：<%= staTxt[item.status]%></td>
+                        <td>确认时间：<%= item.modifTime%></td>
+                    </tr>
+                    <% } else if(item.payType == 'cash'){ %>
+                    <tr>
+                        <td>现金金额：<%= item.invoiceAmount%></td>
+                        <td colspan="2">确认人：<%= item.commitUserName%></td>
+                        <td>确认时间：<%= item.modifTime%></td>
+                    </tr>
+                    <% } %>
+                <% }) %>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <strong>转筹</strong>
+            <em><%= data.dealDate %></em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td>
+            <table class="audit-table table-hover">
+                <tr>
+                    <th>操作人员</th>
+                    <td><%= data.dealUserName %>&nbsp;&nbsp;&nbsp;<%= '（' + (data.dealName || '无') + '）' %></td>
+                </tr>
+                <tr>
+                    <th>购房合同号</th>
+                    <td><%= data.dealContractno %></td>
+                </tr>
+                <tr>
+                    <th>合同金额</th>
+                    <td><%= formatNumber(data.dealAmount,2) %></td>
+                </tr>
+                <tr>
+                    <th>合同日期</th>
+                    <td><%= data.dealContractTime %></td>
+                </tr>
+                <tr>
+                    <th>房号</th>
+                    <td><%= data.dealRoomnum %></td>
+                </tr>
+                <tr>
+                    <th>成交面积</th>
+                    <td><%= (data.dealArea ? data.dealArea: '') %>m<sup>2</sup></td>
+                </tr>
+                <tr>
+                    <th>户型</th>
+                    <td><%= data.projectTypeName %></td>
+                </tr>
+                <% if(data.oldToNew) { %>
+                <tr>
+                    <th>老带新</th>
+                    <td colspan="3">
+                        <% if (null != data.oldDocId && "" != data.oldDocId) { %>
+                        <a class="audit-adjunct" href="<%= _apiHost_ %>/hoss/sys/fileDownload/download.do?id=<%=data.oldDocId %>" target="_blank">老购房合同.jpg</a>
+                        <% } %>
+                        老客户购房合同编号:&nbsp;&nbsp;&nbsp;<%= data.oldCustomerNo %>
+                    </td>
+                </tr>
+                <% } %>
+                <tr>
+                    <th>备注</th>
+                    <td><%=data.comments %></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <% if (data.dealStatus === 'sale_waitapprove' ) { %>
+        <th>
+            <strong>品控审核</strong>
+            <em><% if (data.dealStatus != 'sale_waitapprove' && data.dealStatus != 'project_manager_check') { %><%=data.dealUpdateDate %><% } %></em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td>
+            <form id="examineAction" class="audit-table-form" method="post" action="/hoss/sys/examineAction">
+                <table class="audit-table">
+                    <tr>
+                        <th>审核人员</th>
+                        <td><%= data.approverUsername %>&nbsp;&nbsp;&nbsp;<%= '（' + (data.approverName || '无') + '）' %></td>
+                    </tr>
+                    <tr>
+                        <th>审核意见</th>
+                        <td>
+                            <textarea rows="3" name="content" placeholder="请输入审核意见"></textarea>
+
+                            <input type="hidden" name="id" value="">
+                            <input type="hidden" name="type" value="">
+                            <div class="search-line">
+                                <input class="btn btn-default btn-audit-tg btn-audit-sub" data-type="0" type="submit" value="通  过">
+                                <input class="btn btn-default btn-audit-btg btn-audit-sub" data-type="1" type="submit" value="不通过">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+        <% } else { %>
+        <th>
+            <strong>品控审核</strong>
+            <em><% if (data.dealStatus != 'sale_waitapprove' && data.dealStatus != 'project_manager_check') { %><%=data.dealUpdateDate %><% } %></em>
+            <div class="audit-table-flow-dot"></div>
+        </th>
+        <td>
+            <table class="audit-table table-hover">
+                <tr>
+                    <th>审核人员</th>
+                    <td><%= data.approverUsername %>&nbsp;&nbsp;&nbsp;<%= '（' + (data.approverName || '无') + '）' %></td>
+                </tr>
+                <tr>
+                    <th>审核意见</th>
+                    <td><%= data.approverMark %></td>
+                </tr>
+            </table>
+        </td>
+        <% } %>
+    </tr>
+</script>
