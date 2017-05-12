@@ -10,17 +10,16 @@ import org.codehaus.jackson.map.util.JSONPObject;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-/**
- * Created by linxiaohui on 14-5-27.
- */
+
 public class Jsonp {
 
     private String callback=null;
     private java.util.Map jsonp;
     public static final String callbackKey="callback";
-
-
-
+    public static final String statusCode = "statusCode";
+    public static final String dataKey = "data";
+    public static final String statusDetail ="statusDetail";
+    
     private boolean isMultipart=false;
 
 
@@ -38,19 +37,19 @@ public class Jsonp {
 
 
     public String getStatus() {
-        return (String)jsonp.get("status");
+        return (String)jsonp.get(statusCode);
     }
 
     public Jsonp setStatus(String status) {
         if(null==status)
-            jsonp.put("status","");
+            jsonp.put("statusCode","");
         else
-            jsonp.put("status",status);
+            jsonp.put("statusCode",status);
         return this;
     }
 
     public Object getData() {
-        return jsonp.get("data");
+        return jsonp.get(dataKey);
     }
 
     public String getCallback() {
@@ -105,22 +104,22 @@ public class Jsonp {
      */
     public Jsonp setData(Object data) {
         if(data instanceof List){
-            jsonp.put("data",new PageImpl((List)data));
+            jsonp.put(dataKey,new PageImpl((List)data));
         }else{
-            jsonp.put("data",data);
+            jsonp.put(dataKey,data);
         }
         return this;
     }
 
     public String getDetail() {
-        return (String)jsonp.get("detail");
+        return (String)jsonp.get("statusDetail");
     }
 
     public Jsonp setDetail(String message) {
         if(null==message)
-            jsonp.put("detail","");
+            jsonp.put("statusDetail","");
         else
-            jsonp.put("detail",message);
+            jsonp.put("statusDetail",message);
         return this;
     }
 
