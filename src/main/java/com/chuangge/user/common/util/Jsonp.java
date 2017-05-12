@@ -10,7 +10,11 @@ import org.codehaus.jackson.map.util.JSONPObject;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-
+/***
+ * json响应对象
+ * @author lizhiwei
+ *
+ */
 public class Jsonp {
 
     private String callback=null;
@@ -23,7 +27,7 @@ public class Jsonp {
     private boolean isMultipart=false;
 
 
-    private Jsonp(){
+    public Jsonp(){
         jsonp=new HashMap();
     }
 
