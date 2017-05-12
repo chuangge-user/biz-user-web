@@ -2,18 +2,13 @@ package com.chuangge.user.login.controller;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.druid.support.json.JSONUtils;
-import com.chuangge.common.utils.JsonUtils;
 import com.chuangge.redis.util.RedisUtils;
 import com.chuangge.user.common.util.Jsonp;
 import com.chuangge.user.login.vo.LoginRequestVo;
