@@ -53,12 +53,8 @@ public class LoginController {
 	@ResponseBody
 	public Jsonp getVerifyCode(String mobile) throws Exception {
 		Jsonp jsonP = new Jsonp();
-		Map returnMap = new HashMap();
-		returnMap.put("returnCode", 1);
-		returnMap.put("returnMessage", "success");
 		int a = (int)(Math.random()*(9999-1000+1))+1000;
-		RedisUtils.opsForValue().set("getVerifyCode"+mobile,a+"",10,TimeUnit.MINUTES);
-		RedisUtils.opsForValue().set("getVerifyCode19222222",a+"",10,TimeUnit.MINUTES);
+		RedisUtils.opsForValue().set("getVerifyCode"+mobile,a+"",5,TimeUnit.MINUTES);
 		System.out.println(RedisUtils.opsForValue().get("getVerifyCode"+mobile));
 		return jsonP;
 	}
