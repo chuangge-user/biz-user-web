@@ -16,9 +16,9 @@ public class Jsonp {
     private String callback=null;
     private java.util.Map jsonp;
     public static final String callbackKey="callback";
-    public static final String statusCode = "statusCode";
-    public static final String dataKey = "data";
-    public static final String statusDetail ="statusDetail";
+    private static final String statusCode = "statusCode";
+    private static final String dataKey = "data";
+    private static final String statusDetail ="statusDetail";
     
     private boolean isMultipart=false;
 
