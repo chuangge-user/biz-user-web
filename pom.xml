@@ -17,7 +17,7 @@
 	<name>biz-user-web</name>
 
 	<properties>
-		<com.haowu.framework.version>2.0-RELEASE</com.haowu.framework.version>
+		<com.chuangge.framework.version>2.0-RELEASE</com.chuangge.framework.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<dubbo.version>2.5.3</dubbo.version>
 	</properties>
@@ -40,34 +40,34 @@
 		<dependency>
 			<groupId>com.chuangge</groupId>
 			<artifactId>biz-user-api</artifactId>
-			<version>1.1-SNAPSHOT</version>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
 		<!-- dubbo -->
 		<dependency>
 			<groupId>com.chuangge.framework</groupId>
 			<artifactId>chuangge-dubbo</artifactId>
-			<version>${haowu.framework.version}</version>
+			<version>${chuangge.framework.version}</version>
 		</dependency>
 
 		<!-- mybatis 相关 -->
 		<dependency>
 			<groupId>com.chuangge.framework</groupId>
 			<artifactId>chuangge-mybatis</artifactId>
-			<version>${haowu.framework.version}</version>
+			<version>${chuangge.framework.version}</version>
 		</dependency>
 
 		<!-- redis 相关 -->
 		<dependency>
 			<groupId>com.chuangge.framework</groupId>
 			<artifactId>chuangge-redis</artifactId>
-			<version>${haowu.framework.version}</version>
+			<version>${chuangge.framework.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.chuangge.framework</groupId>
 			<artifactId>chuangge-web</artifactId>
-			<version>${haowu.framework.version}</version>
+			<version>${chuangge.framework.version}</version>
 		</dependency>
 				
 		<!-- db pool -->
