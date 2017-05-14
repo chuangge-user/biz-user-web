@@ -29,11 +29,11 @@ public class LoginController {
 	@RequestMapping(value = "outside/user/login")
 	@ResponseBody
 	public Jsonp login(String reqStr) throws Exception {
-		LoginRequestVo vo = (LoginRequestVo) JSONUtils.parse (reqStr);
+//		LoginRequestVo vo = (LoginRequestVo) JSONUtils.parse (reqStr);
 		Jsonp jsonP = new Jsonp();
-		Map returnMap = new HashMap();
-		returnMap.put("returnCode", 1);
-		returnMap.put("returnMessage", "success");
+//		Map returnMap = new HashMap();
+//		returnMap.put("returnCode", 1);
+//		returnMap.put("returnMessage", "success");
 
 		return jsonP;
 	}

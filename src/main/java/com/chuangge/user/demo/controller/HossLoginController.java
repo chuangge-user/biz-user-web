@@ -32,15 +32,15 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.chuangge.authcenter.model.dto.UserInfoDTO;
-import com.chuangge.authcenter.model.result.ResultDO;
-import com.chuangge.authcenter.service.AuthUserService;
 import com.chuangge.redis.util.RedisUtils;
 import com.chuangge.user.common.BrowserCacheUtils;
 import com.chuangge.user.common.util.CasManagerUtils;
 import com.chuangge.user.common.util.Constants;
 import com.chuangge.user.common.util.Jsonp;
 import com.chuangge.user.common.util.WebUtility;
+import com.chuangge.user.model.dto.UserInfoDTO;
+import com.chuangge.user.model.result.ResultDO;
+import com.chuangge.user.service.AuthUserService;
 import com.ly.fn.inf.util.StringUtil;
 
 /**
