@@ -30,14 +30,14 @@ protocol.port=20886
 #检查服务提供者是否存在
 consume.service_check=false
 #消费者默认版本
-consumer.default_version=1.0.1_jcy
+consumer.default_version=1.0.0_jcy
 
 #############  消费者相关配置 结束  ##############
 
 ##############  生产者相关配置 开始  ##############
 
 #生产者默认版本号
-provider.default_version=1.0.1_jcy
+provider.default_version=1.0._jcy
 #生成者超时时间
 provider.timeout=2000
 

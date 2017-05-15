@@ -34,5 +34,10 @@
         <property name="interface" value="com.chuangge.user.service.AuthUserService"/>
         <property name="timeout" value="30000"/>
     </bean>
+
+    <bean parent="referenceBean">
+        <property name="interface" value="com.chuangge.user.service.SmsSendService"/>
+        <property name="timeout" value="30000"/>
+    </bean>
     
 </beans>
